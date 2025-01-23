@@ -211,6 +211,13 @@ article {
     margin-bottom: 1rem;
   }
 
+  h3 {
+    @include debug-bg(yellow);
+    @include font-variation(600, 110);
+    font-size: inherit;
+    color: $color-light-accent;
+  }
+
   // Common paragraph and list styles
   p, ul {
     @include debug-bg(yellow);
@@ -235,7 +242,7 @@ article {
       }
     }
 
-    p, ul, h1 {
+    p, ul, h1, h3 {
       width: 70%;
       margin-left: 30%;
 
@@ -341,6 +348,21 @@ article.exhibition-detail {
     text-decoration: none;
     color: inherit;
     @include font-variation(500, 100);
+  }
+}
+
+article.contact {
+  a {
+    text-decoration: underline;
+    font-weight: 400;
+  }
+
+  a.emphasized {
+    font-weight: 600;
+  }
+
+  h3 {
+    color: $color-dark-text;
   }
 }
 

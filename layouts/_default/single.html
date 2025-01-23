@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="{{ if .Params.full_width }}full-width{{ else }}tw-col{{ end }}">
+<article class="{{ if .Params.full_width }}full-width{{ else }}tw-col{{ end }}{{ with .Params.style }} {{ . }}{{ end }}">
   <h1 class="page-title">{{ .Title }}</h1>
   {{ .Content }}
 </article>
