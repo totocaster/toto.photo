@@ -309,8 +309,9 @@ article {
   }
 }
 
-article.exhibitions {
-  section.exhibition {
+/// Exhibition and press list pages
+article.exhibitions, article.press {
+  section.exhibition, section.press-item {
     p {
       a {
         @include font-variation(500, 110);
@@ -327,6 +328,7 @@ section.grouped-info {
   }
 }
 
+/// Exhibition detail page
 article.exhibition-detail {
   h1 {
     display: block;

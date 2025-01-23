@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="press tw-col">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ $pages := where .Site.RegularPages "Section" "press" }} {{ $years := slice }} {{ range $pages }} {{ $year := dateFormat "2006" .Params.press_date }} {{ $years = $years | append $year }} {{ end }}
+  {{ $uniqueYears := uniq $years }} {{ range sort $uniqueYears "value" "desc" }} {{ $currentYear := . }}
+  <h2>{{ . }}</h2>
+  {{ range sort $pages ".Params.press_date" "desc" }} {{ if eq (dateFormat "2006" .Params.press_date) $currentYear }}
+  <section class="press-item grouped-info">
+    <p><a href="{{ .Params.press_url }}" target="_blank">{{ .Title }}</a></p>
+    <p>{{ .Params.publisher }}</p>
+    <p>{{ .Params.press_type }}</p>
+  </section>
+  {{ end }} {{ end }} {{ end }}
+</article>
+{{ end }}
