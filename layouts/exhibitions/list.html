@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="exhibitions tw-col">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ $pages := where .Site.RegularPages "Section" "exhibitions" }} {{ $years := slice }} {{ range $pages }} {{ $year := dateFormat "2006" .Params.start_date }} {{ $years = $years | append $year }} {{
+  end }} {{ $uniqueYears := uniq $years }} {{ range sort $uniqueYears "value" "desc" }} {{ $currentYear := . }}
+  <h2>{{ . }}</h2>
+  {{ range sort $pages ".Params.start_date" "desc" }} {{ if eq (dateFormat "2006" .Params.start_date) $currentYear }}
+  <section class="exhibition grouped-info">
+    <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+
+    <p>{{ dateFormat "January 2" .Params.start_date }} {{ if .Params.end_date }} &mdash; {{ dateFormat "January 2" .Params.end_date }} {{ end }}</p>
+    {{ if .Params.gallery }}
+    <p>{{ .Params.gallery }}</p>
+    {{ end }}
+    <p>{{ .Params.location }}</p>
+    <p>{{ .Params.exhibition_type }}</p>
+  </section>
+  {{ end }} {{ end }} {{ end }}
+</article>
+{{ end }}

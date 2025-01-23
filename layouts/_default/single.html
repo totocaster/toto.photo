@@ -1,0 +1,6 @@
+{{ define "main" }}
+<article class="{{ if .Params.full_width }}full-width{{ else }}tw-col{{ end }}">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+{{ end }}

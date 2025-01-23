@@ -1,0 +1,369 @@
+// Colors
+$color-light-bg: #FCFCFC;
+$color-light-text: #6A706E;
+$color-light-accent: #0B0014;
+$color-dark-bg: #0B0014;
+$color-dark-text: #6A706E;
+
+// Layout
+$content-area-inset: 5vw;
+$menu-column-width: 30vw;
+$content-area-width: 70vw;
+
+
+// Breakpoint
+$mobile-breakpoint: 768px;
+$narrow-breakpoint: 1024px;
+
+// Typography
+$font-family-base: -apple-system, BlinkMacSystemFont,'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+
+// Configuration
+$debug-mode: false;
+$force-lowercase: true;
+
+// Mixins
+/// Applies mobile-specific styles for screens smaller than $mobile-breakpoint
+/// @param {Content} content - Styles to be applied on mobile devices
+/// @example
+///   @include mobile {
+///     display: none;
+///   }
+@mixin mobile {
+  @media screen and (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+
+/// Applies styles for narrow screens smaller than $narrow-breakpoint
+/// @param {Content} content - Styles to be applied on narrow screens
+/// @example
+///   @include narrow {
+///     font-size: 0.9rem;
+///   }
+@mixin narrow {
+  @media screen and (max-width: $narrow-breakpoint) {
+    @content;
+  }
+}
+
+/// Adds a background color when debug mode is enabled
+/// @param {Color} color - The debug background color to apply
+/// @example
+///   @include debug-bg(red);
+@mixin debug-bg($color) {
+  @if $debug-mode {
+    background-color: $color;
+  }
+}
+
+/// Forces text to lowercase when $force-lowercase is enabled
+/// @example
+///   @include lowercase-text;
+@mixin lowercase-text {
+  @if $force-lowercase {
+    text-transform: lowercase;
+  }
+}
+
+/// Font variation settings
+/// @param {Number} weight - from 300 to 900
+/// @param {Number} width - from 55 to 100
+/// @param {Number} optical-size - from 8 to 144
+@mixin font-variation($weight: 400, $width: 700, $optical-size: 14) {
+  font-variation-settings: "wght" #{$weight}, "wdth" #{$width}, "opsz" #{$optical-size};
+}
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: $color-light-bg;
+  color: $color-light-text;
+}
+
+/* Layout structure */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  @include debug-bg(yellow);
+}
+
+/* Menu column */
+.menu-column {
+  width: $menu-column-width;
+  position: fixed;
+  height: 100vh;
+  padding: $content-area-inset;
+  @include lowercase-text;
+  @include debug-bg(red);
+
+  @include mobile {
+    display: none;
+  };
+}
+
+.site-title {
+  position: absolute;
+  left: $content-area-inset;
+  bottom: $content-area-inset;
+  @include debug-bg(blue);
+}
+
+/* Content area */
+.content-area {
+  width: $content-area-width;
+  margin-left: $menu-column-width;
+  min-height: 100vh;
+  @include debug-bg(green);
+  padding: $content-area-inset;
+
+  @include mobile {
+    margin-left: 0;
+    width: 100%;
+  };
+}
+
+/* Navigation styles */
+nav {
+  @include debug-bg(orange);
+  ul {
+      list-style: none;
+      margin-bottom: 2rem;
+  } 
+
+  .nav-main {
+    font-size: 1.4rem;
+    @include font-variation(400, 170);
+    @include narrow {
+      font-size: 1.2rem
+    };
+  }
+
+  .nav-secondary {
+    @include narrow {
+      font-size: 0.9rem;
+    };
+  }
+
+  li {
+     margin-bottom: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    
+    &:hover {
+      color: $color-light-accent;
+    }
+  }
+}
+
+section.home {
+  @include debug-bg(lightblue);
+  height: 85vh;
+  text-align: right;
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+article {
+  @include debug-bg(lightblue);
+  hyphens: auto;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.5;
+
+  hr {
+    border: 0;
+    height: 3rem;
+  }
+
+  a {
+    color: $color-light-accent;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  // Common heading styles
+  h2 {
+    @include debug-bg(purple);
+    @include font-variation(500, 110);
+    font-size: inherit;
+    font-weight: 700;
+    @include lowercase-text;
+    margin-bottom: 1rem;
+  }
+
+  // Common paragraph and list styles
+  p, ul {
+    @include debug-bg(yellow);
+    margin-bottom: 1.2rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  // Two-column layout
+  &.tw-col {
+    h2 {
+      width: 20%;
+      float: left;
+
+      @include narrow {
+        width: 100%;
+        float: none;
+        text-transform: none;
+      }
+    }
+
+    p, ul, h1 {
+      width: 70%;
+      margin-left: 30%;
+
+      @include narrow {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+  }
+
+  // Full-width layout
+  &.full-width {
+    h2, p, ul {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      max-width: 72ch;
+    }
+    h2 {
+      text-transform: none;
+      @include font-variation(600, 110);
+      font-size: 1.4rem;
+    }
+    h3 {
+      text-transform: none;
+      @include font-variation(500, 110);
+      font-size: 1.2rem;
+    }
+  }
+
+  // Show Gallery Grid
+  .show-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 70%;
+    margin-left: 30%;
+    margin-bottom: 1.2rem;
+
+    @include narrow {
+      width: 100%;
+      margin-left: 0;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
+
+    .gallery-item {
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+article.exhibitions {
+  section.exhibition {
+    p {
+      a {
+        @include font-variation(500, 110);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+section.grouped-info {
+  margin-bottom: 2rem;
+  p {
+    margin-bottom: 0.1rem;
+  }
+}
+
+article.exhibition-detail {
+  h1 {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: #0B0014;
+    @include font-variation(500, 110);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    @include font-variation(500, 100);
+  }
+}
+
+// Lightbox styles
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(white, 0.95);
+  z-index: 1000;
+  cursor: pointer;
+
+  &.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 90%;
+    max-height: 90vh;
+    object-fit: contain;
+    cursor: default;
+  }
+}

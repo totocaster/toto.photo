@@ -1,0 +1,9 @@
+baseURL = 'https://totocaster.com/'
+languageCode = 'en-us'
+title = 'Toto Tvalavadze'
+
+[params]
+  author = "Toto Tvalavadze"
+  twitter = "@totocaster"
+  instagram = "https://instagram.com/totocaster"
+  membershipURL = "https://members.ttvl.co"

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="exhibition-detail tw-col">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if .Params.gallery }}
+  <h2>Venue</h2>
+  <section class="grouped-info">
+    <p>
+      {{ if .Params.gallery_url }}
+      <a href="{{ .Params.gallery_url }}" target="_blank" rel="noopener noreferrer">{{ .Params.gallery }}</a>
+      {{ else }} {{ .Params.gallery }} {{ end }}
+    </p>
+    <p>{{ .Params.exhibition_type }}</p>
+  </section>
+  {{ end }}
+  <h2>Date &amp; Location</h2>
+  <section class="grouped-info">
+    <p>{{ dateFormat "January 2, 2006" .Params.start_date }} {{ if .Params.end_date }} &mdash; {{ dateFormat "January 2" .Params.end_date }} {{ end }}</p>
+    <p>{{ .Params.location }}</p>
+  </section>
+  {{ .Content }} {{ if .Params.poster }}
+  <h2>Poster</h2>
+  <p><img src="{{ .Params.poster }}" alt="{{ .Title }}" /></p>
+  {{ end }} {{ if .Params.address }}
+  <h2>Address</h2>
+  <section class="grouped-info">
+    <p>{{ .Params.address }} <a href="{{ .Params.address_url }}" target="_blank" rel="noopener noreferrer">(map)</a></p>
+  </section>
+  {{ end }}
+  <hr />
+  {{ if .Params.artwork }}
+  <h2>Artwork</h2>
+  <p><img src="{{ .Params.artwork }}" alt="{{ .Title }}" /></p>
+  {{ end }} {{ if .Params.show_gallery }}
+  <h2>Show Gallery</h2>
+  <section class="show-gallery">
+    {{ range .Params.show_gallery }}
+    <div class="gallery-item">
+      <img src="{{ . }}" alt="Gallery image" class="gallery-image" onclick="openLightbox(this.src)" />
+    </div>
+    {{ end }}
+  </section>
+  {{ end }} {{ if .Params.acknowledgements }}
+  <h2>Shout-Outs</h2>
+  <p>{{ .Params.acknowledgements }}</p>
+  {{ end }}
+</article>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Lightbox image" onclick="event.stopPropagation()" />
+</div>
+
+{{ $lightbox := resources.Get "js/lightbox.js" }} {{ $lightbox = $lightbox | js.Build }}
+<script src="{{ $lightbox.RelPermalink }}"></script>
+{{ end }}
