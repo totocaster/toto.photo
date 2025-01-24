@@ -4,9 +4,9 @@ title: Works
 
 ## Folio Editions
 
-[Folio Editions](/folio-editions/) are small collections, book-shaped objects, each focusing on a specific theme or subject that I explore through visual language. Ranging from studies to excerpts from larger projects. I print Folio Editions in limited runs here in Japan.
+[Folio Editions](/folio-editions/) are small, book-shaped collections, each centered on a specific theme or subject that I explore through visual language. Some editions serve as studies, while others include excerpts and experiments from larger projects. I produce Folio Editions in limited runs here in Japan.
 
-Folio Editions are part of my [membership program](//members.ttvl.co), where members receive the latest editions as they’re created. Physical copies are also available to purchase individually through my online store after a brief delay.
+Folio Editions are included in my [membership program](//members.ttvl.co), where members receive the latest editions as they are released a couple of times a year. They are also available for individual purchase through my online store after a brief delay.
 
 ---
 
