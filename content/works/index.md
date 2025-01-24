@@ -12,11 +12,11 @@ Folio Editions are included in my [membership program](//members.ttvl.co), where
 
 ## Out of Memory
 
-Out of Memory is a photographic journal I maintain. I print new, 200-page volume, every six to eight months. It is a series of snaps made in Tokyo, Tbilisi, and wherever life takes me.
+Out of Memory is a photographic journal—a collection of snapshots, memories, textures, and moments I encounter. Every six to eight months, I print a 200-page volume. I began this series in May 2019 and intend to continue until my last day in this world. Several photographs from the series have been featured in exhibitions, including Perspectives and Walk With Me.
 
 ![Out of Memory Series](/works/oom.jpeg)
 
-Volumes: 1, 2, 3, 4, 5, 6, 7, 8, 9 (May 2019–ongoing)
+Volumes: 1, 2, 3, 4, 5, 6, 7, 8, 9
 
 ---
 
