@@ -1,3 +1,5 @@
 <title>{{ .Site.Title }}</title>
 {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+{{ $mobileMenu := resources.Get "js/mobile-menu.js" | js.Build | minify }}
+<script src="{{ $mobileMenu.RelPermalink }}"></script>

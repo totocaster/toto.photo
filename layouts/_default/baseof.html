@@ -8,6 +8,8 @@
   <body>
     <div class="layout">
       <section class="menu-column">{{ partial "nav" . }}</section>
+      <button class="mobile-menu-toggle">Menu</button>
+      <div class="mobile-menu-overlay">{{ partial "nav" . }}</div>
       <section class="content-area">{{ block "main" . }}{{ end }}</section>
     </div>
   </body>
