@@ -233,11 +233,13 @@ article {
     h2 {
       width: 20%;
       float: left;
+      text-align: right;
 
       @include narrow {
         width: 100%;
         float: none;
         text-transform: none;
+        text-align: left;
       }
     }
 
