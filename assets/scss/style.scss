@@ -114,6 +114,11 @@ body {
   left: $content-area-inset;
   bottom: $content-area-inset;
   @include debug-bg(blue);
+
+  @include mobile {
+    left: 4rem;
+    bottom: 3rem;
+  };
 }
 
 /* Content area */
@@ -452,5 +457,7 @@ article.contact {
 
   nav {
     margin-top: 3rem;
+    margin-left: 3rem;
   }
+
 }
