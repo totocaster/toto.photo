@@ -221,6 +221,7 @@ article {
   // Common paragraph and list styles
   p, ul {
     @include debug-bg(yellow);
+    @include font-variation(300, 100);
     margin-bottom: 1.2rem;
 
     img {
