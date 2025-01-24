@@ -20,7 +20,7 @@ $font-family-base: -apple-system, BlinkMacSystemFont,'HelveticaNeue', 'Helvetica
 
 // Configuration
 $debug-mode: false;
-$force-lowercase: true;
+$force-lowercase: false;
 
 // Mixins
 /// Applies mobile-specific styles for screens smaller than $mobile-breakpoint
@@ -181,8 +181,6 @@ section.home {
 
 article {
   @include debug-bg(lightblue);
-  hyphens: auto;
-  text-align: justify;
   font-size: 1.1rem;
   line-height: 1.5;
 
@@ -194,7 +192,7 @@ article {
   a {
     color: $color-light-accent;
     text-decoration: underline;
-    font-weight: 500;
+    @include font-variation(500, 100);
   }
 
   h1 {
@@ -355,11 +353,11 @@ article.exhibition-detail {
 article.contact {
   a {
     text-decoration: underline;
-    font-weight: 400;
+    @include font-variation(400, 100);
   }
 
   a.emphasized {
-    font-weight: 600;
+    @include font-variation(500, 100);
   }
 
   h3 {
