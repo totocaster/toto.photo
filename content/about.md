@@ -6,9 +6,11 @@ title: About Toto Tvalavadze
 
 ## Artists Statement
 
-Hello world. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My photographic work explores the intersection of concrete narratives and personal interpretation, creating what I call _Liminal Realism_. In each image, I construct stories that become shared spaces where viewers are invited to fill in carefully crafted gaps with their own memories and interpretations. This approach transforms each sequence into a unique experience shaped by both artistic intention and individual perspective.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Photography allows me to capture the ephemeral moments that punctuate our experience of time—from fantastical urban sights to subtle textures that trigger sensory memories. By incorporating deliberate spaces for interpretation in my sequences, I create a framework where multiple meanings can coexist. I see the resulting work as a painted mirror, where I guide the narrative through brushstrokes while leaving room for the viewer's own story to emerge in reflection.
+
+This interplay between artistic direction and viewer experience is central to my practice. While I provide the story and the core context, the final narrative emerges through each viewer's unique engagement with the work. Through this approach, a series can generate countless interpretations, each equally valid and meaningful to its observer.
 
 ## Biography
 
