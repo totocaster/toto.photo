@@ -14,6 +14,7 @@ $content-area-width: 70vw;
 // Breakpoint
 $mobile-breakpoint: 768px;
 $narrow-breakpoint: 1024px;
+$wide-breakpoint: 1330px;
 
 // Typography
 $font-family-base: -apple-system, BlinkMacSystemFont,'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
@@ -43,6 +44,12 @@ $force-lowercase: false;
 ///   }
 @mixin narrow {
   @media screen and (max-width: $narrow-breakpoint) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (max-width: $wide-breakpoint) {
     @content;
   }
 }
@@ -397,6 +404,25 @@ article.contact {
   h3 {
     color: $color-dark-text;
   }
+}
+
+article.oom {
+  @include medium {
+    h2 {
+      @include font-variation(400, 70);
+    }
+  }
+
+  @include narrow {
+    h2 {
+      @include font-variation(400, 110);
+    }
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+  
 }
 
 // Lightbox styles
