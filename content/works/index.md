@@ -14,7 +14,7 @@ Folio Editions are included in my [membership program](//members.ttvl.co), where
 
 [Out of Memory][oom] is a photographic journal—a collection of snapshots, memories, textures, and moments I encounter. Every six to eight months, I print a 200-page volume. I began this series in May 2019 and intend to continue until my last day in this world. Several photographs from the series have been featured in exhibitions, including _Perspectives_ and _Walk With Me_.
 
-![Out of Memory Series](/projects/oom.jpeg)
+![Out of Memory Series](/works/oom.jpeg)
 
 [Explore Out of Memory: Volumes 1–9][oom]. Produced between May 2019 and August 2024. Ongoing project.
 
@@ -24,11 +24,11 @@ Folio Editions are included in my [membership program](//members.ttvl.co), where
 
 In my universe, the book remains the definitive form for completed photographic work. Below are book maquettes I've made over the years.
 
-![Books](/projects/books.jpg)
+![Books](/works/books.jpg)
 
-- [Catch-32](/projects/maquettes#catch-32) (2021)
-- [Someone at the Door](/projects/maquettes#someone-at-the-door) (2021)
-- [The Place I Felt Alone](/projects/maquettes#the-place-i-felt-alone) (2020)
-- [Tokyo on Wheels](/projects/maquettes#tokyo-on-wheels) (2019)
+- [Catch-32](/works/maquettes#catch-32) (2021)
+- [Someone at the Door](/works/maquettes#someone-at-the-door) (2021)
+- [The Place I Felt Alone](/works/maquettes#the-place-i-felt-alone) (2020)
+- [Tokyo on Wheels](/works/maquettes#tokyo-on-wheels) (2019)
 
-[oom]: (/projects/out-of-memory)
+[oom]: (/works/out-of-memory)
