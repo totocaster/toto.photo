@@ -2,14 +2,16 @@
 title: Folio Edition
 ---
 
-# Folio Editions
+**Folio Editions** are small collections of my photographs in a modest photo-book format. Each volume is focused on a theme or subject I’m exploring. Some Folio Editions are complete bodies of work, and some—certain aspects of a larger, longer-term project that, one day, might become a grown-up published book.
 
-Folio Editions are small, carefully crafted collections of my photographs, each focused on a theme or subject I’m exploring. They’re around forty pages and offer a glimpse into what I’m working on—sometimes part of a bigger project, sometimes a complete story on their own.
+<!-- // TODO: Photo of the fill editions and its spreads-->
 
-If you’re part of my membership program, you’ll receive a new Folio Edition delivered straight to your door for free. I aim to create up to four editions a year, though I don’t follow a strict schedule—this gives me the freedom to explore more deeply and work with greater focus and intention.
+This series serves as a foundation of my narrative work, where I explore subjects I’m curious about.
 
-Each edition is a limited print run, with the exact number of copies printed noted on the cover. They’re only printed once, so when they’re gone, they’re gone.
+- [Catch-32](/)
 
-I produce them here in Japan using the best materials and printing techniques I can find. This is why I don’t call them zines—I deeply respect the democratic and accessible nature of zine culture, and these editions feel like something else entirely. I pack each one myself and ship them from my studio in Tokyo.
+<!-- // TODO: List of Folio Editions -->
 
-Folio Editions is a way for me to share my work in a tangible, meaningful way while asking your permission to explore obscure subjects that no publisher would allow me to do.
+---
+
+Members of my [membership program](//members.ttvl.co) receive a new Folio Edition several times a year at their doorstep for no additional cost. I aim to create about three to four volumes a year. A slightly ambiguous schedule allows me to work intently and intensely on more complex projects.
