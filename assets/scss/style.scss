@@ -223,6 +223,14 @@ article {
     display: none;
   }
 
+  &.show-title > h1 {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: #0B0014;
+    @include font-variation(500, 110);
+  }
+
   // Common heading styles
   h2 {
     @include debug-bg(purple);
