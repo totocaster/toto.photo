@@ -209,6 +209,10 @@ article {
     height: 3rem;
   }
 
+  strong {
+    @include font-variation(500, 100);
+  }
+
   a {
     color: $color-light-accent;
     text-decoration: underline;
