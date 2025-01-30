@@ -6,11 +6,11 @@ title: About Toto Tvalavadze
 
 ## Artists Statement
 
-My photographic work explores the intersection of concrete narratives and personal interpretation, creating what I call _Liminal Realism_. In each sequence, I construct stories that become shared spaces where viewers are invited to fill in carefully crafted gaps with their own memories and interpretations. This approach transforms each story into a unique experience shaped by both artistic intention and individual perspective.
+My photographic work explores the intersection of concrete narratives and personal interpretation, creating what I call Liminal Realism. By constructing narrative sequences with deliberate ambiguity, I create frameworks where viewers collaborate to somewhat complete the story, weaving their own memories and perspectives into the gaps I leave unresolved.
 
-Photography allows me to capture the ephemeral moments that punctuate our experience of time—from sharp memories of moments to subtle textures that trigger sensory recollections. By incorporating deliberate spaces for interpretation in my sequences, I create a framework where multiple meanings can coexist. I see the resulting work as a painted mirror, where I guide the narrative through brushstrokes while leaving room for the viewer's own story to emerge in reflection.
+Photography allows me to capture the ephemeral moments that punctuate our experience of time—from sharp memories of moments to subtle textures that trigger sensory recollections. I hope my sequences act as painted mirrors, reflecting my intentional brushstrokes while inviting viewers to glimpse their own narratives in the reflections.
 
-This interplay between artistic direction and viewer experience is central to my practice. While I provide the story and the core context, the final narrative emerges through each viewer's unique engagement with the work. Through this approach, a series can generate countless interpretations, each equally valid and meaningful to its observer.
+Through this approach, each series can generate countless stories, all equally valid and meaningful to their observers.
 
 ## Biography
 
