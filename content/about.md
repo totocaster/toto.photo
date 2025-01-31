@@ -6,7 +6,7 @@ title: About Toto Tvalavadze
 
 ## Artists Statement
 
-My photographic work explores the intersection of concrete narratives and personal interpretation, creating what I call Liminal Realism. By constructing narrative sequences with deliberate ambiguity, I create frameworks where viewers collaborate to somewhat complete the story, weaving their own memories and perspectives into the gaps I leave unresolved.
+My photographic work explores the intersection of concrete narratives and personal interpretation, creating what I call _Liminal Realism_. By constructing narrative sequences with deliberate ambiguity, I create frameworks where viewers collaborate to somewhat complete the story, weaving their own memories and perspectives into the gaps I leave unresolved.
 
 Photography allows me to capture the ephemeral moments that punctuate our experience of time—from sharp memories of moments to subtle textures that trigger sensory recollections. I hope my sequences act as painted mirrors, reflecting my intentional brushstrokes while inviting viewers to glimpse their own narratives in the reflections.
 
