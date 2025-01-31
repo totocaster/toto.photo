@@ -418,11 +418,11 @@ article.oom {
       @include font-variation(400, 110);
     }
   }
-
+}
+article.maquettes, article.oom {
   h3 {
     margin-bottom: 1rem;
   }
-  
 }
 
 // Lightbox styles
