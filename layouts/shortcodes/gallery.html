@@ -1,16 +1,10 @@
 <!-- Gallery Shortcode -->
 <section class="show-gallery">
-  <!-- Debug info -->
-  <!-- Inner content: {{ .Inner }} -->
-  
   {{ $content := .Inner }}
   {{ $images := split (trim $content "\n\r ") "\n" }}
   
-  <!-- Debug: Number of images found: {{ len $images }} -->
-  
   {{ range $images }}
     {{ $img := trim . " \n\r\t" }}
-    <!-- Debug: Processing image: {{ $img }} -->
     {{ if ne $img "" }}
     <div class="gallery-item">
       <img src="{{ $img }}" alt="Gallery image" class="gallery-image" onclick="openLightbox(this.src)" />
