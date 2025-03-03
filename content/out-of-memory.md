@@ -7,7 +7,15 @@ _Out of Memory_ is a photographic journal—a collection of snapshots, memories,
 
 ---
 
-## 12.2023–05.2024
+## 2024.08–2025.02
+
+### Volume 10
+
+_Currently in making._
+
+---
+
+## 2023.12–2024.05
 
 ### Volume 9
 
@@ -15,9 +23,18 @@ _Out of Memory_ is a photographic journal—a collection of snapshots, memories,
 
 Hello world.
 
+{{< gallery >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 1 description" >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 2 description" >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 3 description" >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 4 description" >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 5 description" >}}
+  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 6 description" >}}
+{{< /gallery >}}
+
 ---
 
-## 04.2024–12.2024
+## 2024.04–2024.12
 
 ### Volume 8
 
@@ -27,7 +44,7 @@ Hello world.
 
 ---
 
-## 08.2022–06.2023
+## 2022.08–2023.06
 
 ### Volume 7
 
@@ -37,7 +54,7 @@ Hello world.
 
 ---
 
-## 01.2022–07.2022
+## 2022.01–2022.07
 
 ### Volume 6
 
@@ -47,7 +64,7 @@ Hello world.
 
 ---
 
-## 03.2021–09.2021
+## 2021.03–2021.09
 
 ### Volume 5
 
@@ -57,7 +74,7 @@ Hello world.
 
 ---
 
-## 10.2020–03.2021
+## 2020.10–2021.03
 
 ### Volume 4
 
@@ -67,7 +84,7 @@ Hello world.
 
 ---
 
-## 06.2020–10.2020
+## 2020.06–2020.10
 
 ### Volume 3
 
@@ -77,7 +94,7 @@ Hello world.
 
 ---
 
-## 12.2019–06.2020
+## 2019.12–2020.06
 
 ### Volume 2
 
@@ -87,7 +104,7 @@ Hello world.
 
 ---
 
-## 05.2019–12.2019
+## 2019.05–2019.12
 
 ### Volume 1
 

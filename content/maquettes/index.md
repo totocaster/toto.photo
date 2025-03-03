@@ -15,7 +15,7 @@ I have changed my process and now focus on [Folio Editions](/folio-editions/) fo
 
 Catch-32 is my exploration of the often misunderstood boundary between loneliness and solitude. This journey began after the abrupt end of a decade-long relationship. For months, the weight of loneliness was tangible—cold, heavy, and isolating. But as time passed, something unexpected happened.
 
-![Catch-32](/works/books.jpg)
+![Catch-32](/works/2025.02_catch-32-page-1.jpg)
 
 I found myself enjoying the quiet moments. I started to get lost in my thoughts, embracing this state. This new sensation felt warm and inviting, a kind of stillness where I could reconnect with myself. I began to understand that solitude, unlike loneliness, is not something to fear but something to savor. Where loneliness felt like a void, solitude became a refuge—a state of quiet joy.
 
