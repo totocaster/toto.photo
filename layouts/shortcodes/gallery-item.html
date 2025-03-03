@@ -1,6 +1,0 @@
-<!-- Gallery Item Shortcode -->
-<div class="gallery-item">
-  {{ $src := .Get "src" }}
-  {{ $alt := .Get "alt" | default "Gallery image" }}
-  <img src="{{ $src }}" alt="{{ $alt }}" class="gallery-image" onclick="openLightbox(this.src)" />
-</div> 

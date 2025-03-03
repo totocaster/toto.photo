@@ -24,12 +24,12 @@ _Currently in making._
 Hello world.
 
 {{< gallery >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 1 description" >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 2 description" >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 3 description" >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 4 description" >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 5 description" >}}
-  {{< gallery-item src="/exhibitions/galleries/line-1.jpeg" alt="Image 6 description" >}}
+/exhibitions/galleries/perspectives-1.jpeg
+/exhibitions/galleries/perspectives-2.jpeg
+/exhibitions/galleries/perspectives-3.jpeg
+/exhibitions/galleries/tf2-1.jpg
+/exhibitions/galleries/tf2-2.jpg
+/exhibitions/galleries/wwm-1.jpg
 {{< /gallery >}}
 
 ---

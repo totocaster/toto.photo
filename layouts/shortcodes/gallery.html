@@ -1,6 +1,22 @@
 <!-- Gallery Shortcode -->
 <section class="show-gallery">
-  {{ .Inner | safeHTML }}
+  <!-- Debug info -->
+  <!-- Inner content: {{ .Inner }} -->
+  
+  {{ $content := .Inner }}
+  {{ $images := split (trim $content "\n\r ") "\n" }}
+  
+  <!-- Debug: Number of images found: {{ len $images }} -->
+  
+  {{ range $images }}
+    {{ $img := trim . " \n\r\t" }}
+    <!-- Debug: Processing image: {{ $img }} -->
+    {{ if ne $img "" }}
+    <div class="gallery-item">
+      <img src="{{ $img }}" alt="Gallery image" class="gallery-image" onclick="openLightbox(this.src)" />
+    </div>
+    {{ end }}
+  {{ end }}
 </section>
 
 <!-- Lightbox (only included if not already on the page) -->
