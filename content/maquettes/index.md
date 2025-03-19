@@ -31,7 +31,7 @@ Doorbells used to be simple things. Push the button; the spring behind the plast
 
 My Tokyo apartment has a doorbell lifted from sci-fi manga of the 90s. White plastic. Clacky buttons. Tacky blue LED. Surprisingly large screen for something that has ice-cube-sized pixels. Gadgets like this at home are ubiquitous in Japan, so I mostly ignored it. “Oh, I can see who’s ringing on the ground floor, neat,” I thought and forgot about it.
 
-![Catch-32](/works/books.jpg)
+![Someone at yhe Door](https://placehold.co/600x330)
 
 A few weeks ago, that garish blue LED refused to stop blinking. Nobody was ringing the bell. Being midnight, half-asleep, I accidentally fat-fingered the wrong button and discovered that my doorbell records and stores low-framerate videos of everyone who has ever pushed the button. The corner of the display had text familiar to any digital photographer: ‘1/53.’
 
@@ -47,7 +47,7 @@ _Edition of one._
 
 Photos of the place where I truly felt alone for the first time in my life.
 
-![Catch-32](/works/books.jpg)
+![The Place I Felt Alone](https://placehold.co/600x330)
 
 _One-of-a-kind. Handmade. All original instants._
 
@@ -59,6 +59,6 @@ _One-of-a-kind. Handmade. All original instants._
 
 I find bicycles to be fascinating and beautiful objects. This book contains bikes I saw while roaming the streets of Tokyo. Collected in a single zine-like book. Simple as that.
 
-![Catch-32](/works/books.jpg)
+![Tokyo on Wheels](https://placehold.co/600x330)
 
 _Edition of one._

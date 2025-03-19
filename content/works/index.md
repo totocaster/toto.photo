@@ -6,7 +6,7 @@ title: Works
 
 [Folio Editions](/folio-editions/) are small, book-shaped collections, each centered on a specific theme or subject that I explore through visual language. Some editions serve as studies, while others include excerpts and experiments from larger projects. I produce Folio Editions in limited runs here in Japan.
 
-![Out of Memory Series](/works/oom.jpeg)
+![Folio Editions](https://placehold.co/600x330)
 
 Explore [Folio Editions](/folio-editions/) in detail --- what are they, how to get one.
 

@@ -19,17 +19,17 @@ _Currently in making._
 
 ### Volume 9
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 9](https://placehold.co/600x330)
 
 Hello world.
 
 {{< gallery >}}
-/exhibitions/galleries/perspectives-1.jpeg
-/exhibitions/galleries/perspectives-2.jpeg
-/exhibitions/galleries/perspectives-3.jpeg
-/exhibitions/galleries/tf2-1.jpg
-/exhibitions/galleries/tf2-2.jpg
-/exhibitions/galleries/wwm-1.jpg
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
 {{< /gallery >}}
 
 ---
@@ -38,9 +38,18 @@ Hello world.
 
 ### Volume 8
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 8](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -48,9 +57,18 @@ Hello world.
 
 ### Volume 7
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 7](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -58,9 +76,18 @@ Hello world.
 
 ### Volume 6
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 6](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -68,9 +95,18 @@ Hello world.
 
 ### Volume 5
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 5](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -78,9 +114,18 @@ Hello world.
 
 ### Volume 4
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 4](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -88,9 +133,18 @@ Hello world.
 
 ### Volume 3
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 3](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -98,9 +152,18 @@ Hello world.
 
 ### Volume 2
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 2](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
 
@@ -108,8 +171,17 @@ Hello world.
 
 ### Volume 1
 
-![alt text](/works/oom.jpeg)
+![Out of Memomry Vol. 1](https://placehold.co/600x330)
 
 Hello world.
+
+{{< gallery >}}
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+https://placehold.co/600x330
+{{< /gallery >}}
 
 ---
