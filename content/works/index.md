@@ -2,7 +2,7 @@
 title: Works
 ---
 
-## Folio Editions
+<!-- ## Folio Editions
 
 [Folio Editions](/folio-editions/) are small, book-shaped collections, each centered on a specific theme or subject that I explore through visual language. Some editions serve as studies, while others include excerpts and experiments from larger projects. I produce Folio Editions in limited runs here in Japan.
 
@@ -10,7 +10,15 @@ title: Works
 
 Explore [Folio Editions](/folio-editions/) in detail --- what are they, how to get one.
 
----
+--- -->
+
+## Liminal Studies
+
+[Liminal Studies](/liminal-studies/) is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. Each narrative gap invites viewers to project their own memories and anxieties, turning the work into a shared, open‑ended reflection on community, fragmentation, and the fragile spaces in between.
+
+![Liminal Studies](https://placehold.co/600x330)
+
+As of 2025, _Liminal Studies_ forms the [foundation](/liminal-studies/) of several ongoing projects, such as The **Walls You Built (Between Us)**—which probes safe zones and artificial borders—and **Ushba**, a personal investigation into ego and the peripheral status of my homeland.
 
 ## Out of Memory
 
@@ -28,6 +36,7 @@ In my universe, the book remains the definitive form for completed photographic 
 
 ![Books](/works/books.jpg)
 
+- [I Want to Do Bad Things to You](/maquettes#) (box-set, 2022)
 - [Catch-32](/maquettes#catch-32) (2021)
 - [Someone at the Door](/maquettes#someone-at-the-door) (2021)
 - [The Place I Felt Alone](/maquettes#the-place-i-felt-alone) (2020)
