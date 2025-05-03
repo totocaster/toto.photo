@@ -16,7 +16,7 @@ Explore [Folio Editions](/folio-editions/) in detail --- what are they, how to g
 
 [Liminal Studies](/liminal-studies/) is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. Each narrative gap invites viewers to project their own memories and anxieties, turning the work into a shared, open‑ended reflection on community, fragmentation, and the fragile spaces in between.
 
-![Liminal Studies](https://placehold.co/600x330)
+![Liminal Studies](/works/2025.04_liminal_studies.jpeg)
 
 As of 2025, _Liminal Studies_ forms the [foundation](/liminal-studies/) of several ongoing projects, such as The **Walls You Built (Between Us)**—which probes safe zones and artificial borders—and **Ushba**, a personal investigation into ego and the peripheral status of my homeland.
 
@@ -24,7 +24,7 @@ As of 2025, _Liminal Studies_ forms the [foundation](/liminal-studies/) of sever
 
 [Out of Memory](/out-of-memory) is a photographic journal—a collection of snapshots, memories, textures, and moments I encounter. I began this series in May 2019 and intend to continue until my last day in this world.
 
-![Out of Memory Series](/works/oom.jpeg)
+![Out of Memory Series](/works/2025.05_oom9_peak.jpg)
 
 Explore [Out of Memory: Volumes 1–9](/out-of-memory). Produced between May 2019 and August 2024. Ongoing project.
 
@@ -33,8 +33,6 @@ Explore [Out of Memory: Volumes 1–9](/out-of-memory). Produced between May 201
 ## Book Maquettes
 
 In my universe, the book remains the definitive form for completed photographic work. Below are book maquettes I've made over the years.
-
-![Books](/works/books.jpg)
 
 - [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/) (box-set, 2022)
 - [Catch-32](/maquettes/catch-32/) (2021)

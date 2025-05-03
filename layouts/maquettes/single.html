@@ -4,7 +4,15 @@
 
   {{ .Content }}
   
-  {{ if .Params.featured_image }}
+  {{ if .Params.video_url }}
+  <section class="video-embed">
+    <div class="video-container">
+      <iframe src="{{ .Params.video_url }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="{{ .Title }} Flip Through"></iframe>
+    </div>
+    
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  </section>
+  {{ else if .Params.featured_image }}
   <p><img src="{{ .Params.featured_image }}" alt="{{ .Title }}" /></p>
   {{ end }}
 
@@ -20,10 +28,16 @@
   </section>
   {{ end }}
   
-  {{ if .Params.video_url }}
-  <h2>Flip Through</h2>
-  <section class="video-embed">
-    {{ .Params.video_url | safeHTML }}
+
+  
+  {{ if .Params.spreads }}
+  <h2>Spreads</h2>
+  <section class="book-spreads">
+    {{ range .Params.spreads }}
+    <div class="spread-item">
+      <img src="{{ . }}" alt="Book spread" class="spread-image" />
+    </div>
+    {{ end }}
   </section>
   {{ end }}
   
