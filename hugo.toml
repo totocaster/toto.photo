@@ -7,3 +7,6 @@ title = 'Toto Tvalavadze'
   twitter = "@totocaster"
   instagram = "https://instagram.com/totocaster"
   membershipURL = "https://ttvl.co/membership"
+
+[permalinks]
+  maquettes = "/maquettes/:filename/"

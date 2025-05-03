@@ -425,6 +425,17 @@ article.maquettes, article.oom {
   }
 }
 
+/// Maquette detail page
+article.maquette-detail {
+  h1 {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: #0B0014;
+    @include font-variation(500, 110);
+  }
+}
+
 // Lightbox styles
 .lightbox {
   display: none;

@@ -36,7 +36,7 @@ In my universe, the book remains the definitive form for completed photographic 
 
 ![Books](/works/books.jpg)
 
-- [I Want to Do Bad Things to You](/maquettes#) (box-set, 2022)
+- [I Want to Do Bad Things to You](/maquettes#i-want-to-do-bad-things-to-you) (box-set, 2022)
 - [Catch-32](/maquettes#catch-32) (2021)
 - [Someone at the Door](/maquettes#someone-at-the-door) (2021)
 - [The Place I Felt Alone](/maquettes#the-place-i-felt-alone) (2020)

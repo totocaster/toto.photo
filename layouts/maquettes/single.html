@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="maquette-detail tw-col{{ with .Params.style }} {{ . }}{{ end }}">
+  <h1 class="page-title">{{ .Title }}</h1>
+
+  {{ .Content }}
+  
+  {{ if .Params.featured_image }}
+  <p><img src="{{ .Params.featured_image }}" alt="{{ .Title }}" /></p>
+  {{ end }}
+
+  <h2>Year</h2>
+  <section class="grouped-info">
+    <p>{{ .Params.year }}</p>
+  </section>
+  
+  {{ if .Params.edition_info }}
+  <h2>Edition</h2>
+  <section class="edition-info">
+    <p><em>{{ .Params.edition_info }}</em></p>
+  </section>
+  {{ end }}
+  
+  {{ if .Params.video_url }}
+  <h2>Flip Through</h2>
+  <section class="video-embed">
+    {{ .Params.video_url | safeHTML }}
+  </section>
+  {{ end }}
+  
+  {{ if .Params.show_gallery }}
+  <h2>Gallery</h2>
+  <section class="show-gallery">
+    {{ range .Params.show_gallery }}
+    <div class="gallery-item">
+      <img src="{{ . }}" alt="Gallery image" class="gallery-image" onclick="openLightbox(this.src)" />
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+</article>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Lightbox image" onclick="event.stopPropagation()" />
+</div>
+
+{{ $lightbox := resources.Get "js/lightbox.js" }} {{ $lightbox = $lightbox | js.Build }}
+<script src="{{ $lightbox.RelPermalink }}"></script>
+{{ end }} 
