@@ -1,0 +1,8 @@
+<!-- Lightbox Partial -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Lightbox image" onclick="event.stopPropagation()" />
+</div>
+
+{{ $lightbox := resources.Get "js/lightbox.js" }}
+{{ $lightbox = $lightbox | js.Build }}
+<script src="{{ $lightbox.RelPermalink }}"></script> 

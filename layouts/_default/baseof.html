@@ -12,5 +12,8 @@
       <div class="mobile-menu-overlay">{{ partial "nav" . }}</div>
       <section class="content-area">{{ block "main" . }}{{ end }}</section>
     </div>
+    
+    <!-- Include lightbox just once for the entire site -->
+    {{ partial "lightbox.html" . }}
   </body>
 </html>

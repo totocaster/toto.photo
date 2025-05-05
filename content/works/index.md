@@ -14,25 +14,51 @@ Explore [Folio Editions](/folio-editions/) in detail --- what are they, how to g
 
 ## Liminal Studies
 
-[Liminal Studies](/liminal-studies/) is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. Each narrative gap invites viewers to project their own memories and anxieties, turning the work into a shared, open‑ended reflection on community, fragmentation, and the fragile spaces in between.
+Liminal Studies is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. 
 
 ![Liminal Studies](/works/2025.04_liminal_studies.jpeg)
 
-As of 2025, _Liminal Studies_ forms the [foundation](/liminal-studies/) of several ongoing projects, such as The **Walls You Built (Between Us)**—which probes safe zones and artificial borders—and **Ushba**, a personal investigation into ego and the peripheral status of my homeland.
+{{< gallery sq="true" >}}
+/works/2025.04_liminal_studies-1.jpg
+/works/2025.04_liminal_studies-2.jpg
+/works/2025.04_liminal_studies-3.jpg
+/works/2025.04_liminal_studies-7.jpg
+/works/2025.04_liminal_studies-5.jpg
+/works/2025.04_liminal_studies-6.jpg
+{{< /gallery >}}
+
+---
 
 ## Out of Memory
 
 [Out of Memory](/out-of-memory) is a photographic journal—a collection of snapshots, memories, textures, and moments I encounter. I began this series in May 2019 and intend to continue until my last day in this world.
 
-![Out of Memory Series](/works/2025.05_oom9_peak.jpg)
+![Out of Memory Series](/works/2025.05_oom_fan.jpg)
 
-Explore [Out of Memory: Volumes 1–9](/out-of-memory). Produced between May 2019 and August 2024. Ongoing project.
+{{< gallery >}}
+/works/2025.05_oom_stack.jpg
+/works/2025.05_oom_gaze.jpg
+/works/2025.05_oom9_peak.jpg
+/works/2025.05_oom_open.jpg
+/works/2025.05_oom1.jpg
+/works/2025.05_oom9.jpg
+{{< /gallery >}}
+
+See all [Out of Memory volumes](/out-of-memory).
 
 ---
 
 ## Book Maquettes
 
 In my universe, the book remains the definitive form for completed photographic work. Below are book maquettes I've made over the years.
+
+![Catch-32 Spread](/works/spreads/2025.05_c32-6.jpg)
+
+{{< gallery >}}
+/works/spreads/2025.05_synesthesia-0.jpg
+/works/spreads/2025.05_satd-0.jpg
+/works/spreads/2025.05_tpifa-0.jpg
+{{< /gallery >}}
 
 - [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/) (box-set, 2022)
 - [Catch-32](/maquettes/catch-32/) (2021)

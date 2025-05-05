@@ -40,9 +40,9 @@ _Currently pritning._
 
 ![Out of Memomry Vol. 9](/works/2025.05_oom9.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -59,9 +59,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 8](/works/2025.05_oom8.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -78,9 +78,7 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 7](/works/2025.05_oom7.jpg)
 
-Hello world.
-
-{{< gallery >}}
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -97,9 +95,7 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 6](/works/2025.05_oom6.jpg)
 
-Hello world.
-
-{{< gallery >}}
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -116,9 +112,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 5](/works/2025.05_oom5.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -135,9 +131,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 4](/works/2025.05_oom4.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -154,9 +150,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 3](/works/2025.05_oom3.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -173,9 +169,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 2](/works/2025.05_oom2.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true"  >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
@@ -192,9 +188,9 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 1](/works/2025.05_oom1.jpg)
 
-Hello world.
 
-{{< gallery >}}
+
+{{< gallery sq="true" >}}
 https://placehold.co/600x330
 https://placehold.co/600x330
 https://placehold.co/600x330
