@@ -15,7 +15,7 @@ _Out of Memory_ is a photographic journal—a collection of snapshots, memories,
 
 ---
 
-## 2024.02–
+## 2025.02–
 
 ### Volume 11
 
@@ -41,14 +41,16 @@ _Currently pritning._
 ![Out of Memomry Vol. 9](/works/2025.05_oom9.jpg)
 
 
-
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/09/1.jpeg 
+/works/oom/09/2.jpeg 
+/works/oom/09/3.jpeg 
+/works/oom/09/4.jpeg 
+/works/oom/09/5.jpeg 
+/works/oom/09/6.jpeg 
+/works/oom/09/7.jpeg 
+/works/oom/09/8.jpeg 
+/works/oom/09/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -62,12 +64,15 @@ https://placehold.co/600x330
 
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/08/1.jpeg 
+/works/oom/08/2.jpeg 
+/works/oom/08/3.jpeg 
+/works/oom/08/4.jpeg 
+/works/oom/08/5.jpeg 
+/works/oom/08/6.jpeg 
+/works/oom/08/7.jpeg 
+/works/oom/08/8.jpeg 
+/works/oom/08/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -79,12 +84,15 @@ https://placehold.co/600x330
 ![Out of Memomry Vol. 7](/works/2025.05_oom7.jpg)
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/07/1.jpeg 
+/works/oom/07/2.jpeg 
+/works/oom/07/3.jpeg 
+/works/oom/07/4.jpeg 
+/works/oom/07/5.jpeg 
+/works/oom/07/6.jpeg 
+/works/oom/07/7.jpeg 
+/works/oom/07/8.jpeg 
+/works/oom/07/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -96,12 +104,15 @@ https://placehold.co/600x330
 ![Out of Memomry Vol. 6](/works/2025.05_oom6.jpg)
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/06/1.jpeg 
+/works/oom/06/2.jpeg 
+/works/oom/06/3.jpeg 
+/works/oom/06/4.jpeg 
+/works/oom/06/5.jpeg 
+/works/oom/06/6.jpeg 
+/works/oom/06/7.jpeg 
+/works/oom/06/8.jpeg 
+/works/oom/06/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -115,12 +126,15 @@ https://placehold.co/600x330
 
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/05/1.jpeg 
+/works/oom/05/2.jpeg 
+/works/oom/05/3.jpeg 
+/works/oom/05/4.jpeg 
+/works/oom/05/5.jpeg 
+/works/oom/05/6.jpeg 
+/works/oom/05/7.jpeg 
+/works/oom/05/8.jpeg 
+/works/oom/05/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -134,12 +148,15 @@ https://placehold.co/600x330
 
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/04/1.jpeg 
+/works/oom/04/2.jpeg 
+/works/oom/04/3.jpeg 
+/works/oom/04/4.jpeg 
+/works/oom/04/5.jpeg 
+/works/oom/04/6.jpeg 
+/works/oom/04/7.jpeg 
+/works/oom/04/8.jpeg 
+/works/oom/04/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -153,12 +170,15 @@ https://placehold.co/600x330
 
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/03/1.jpeg 
+/works/oom/03/2.jpeg 
+/works/oom/03/3.jpeg 
+/works/oom/03/4.jpeg 
+/works/oom/03/5.jpeg 
+/works/oom/03/6.jpeg 
+/works/oom/03/7.jpeg 
+/works/oom/03/8.jpeg 
+/works/oom/03/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -172,12 +192,15 @@ https://placehold.co/600x330
 
 
 {{< gallery sq="true"  >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/02/1.jpeg 
+/works/oom/02/2.jpeg 
+/works/oom/02/3.jpeg 
+/works/oom/02/4.jpeg 
+/works/oom/02/5.jpeg 
+/works/oom/02/6.jpeg 
+/works/oom/02/7.jpeg 
+/works/oom/02/8.jpeg 
+/works/oom/02/9.jpeg
 {{< /gallery >}}
 
 ---
@@ -188,15 +211,16 @@ https://placehold.co/600x330
 
 ![Out of Memomry Vol. 1](/works/2025.05_oom1.jpg)
 
-
-
 {{< gallery sq="true" >}}
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
-https://placehold.co/600x330
+/works/oom/01/1.jpg 
+/works/oom/01/2.jpg 
+/works/oom/01/3.jpg 
+/works/oom/01/4.jpg 
+/works/oom/01/5.jpg 
+/works/oom/01/6.jpg 
+/works/oom/01/7.jpg 
+/works/oom/01/8.jpg 
+/works/oom/01/9.jpg
 {{< /gallery >}}
 
 ---
