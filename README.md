@@ -28,6 +28,10 @@ This site is built using Hugo. To run it locally:
 3. Run `hugo server -D` to start the development server
 4. Visit `http://localhost:1313` in your browser
 
+## Social Media Metadata
+
+The site includes Open Graph and Twitter Card metadata for social media sharing. Custom banner images are located in `static/ui/og/` and are automatically used for their respective pages.
+
 ## Deployment
 
 The site is configured for deployment through DigitalOcean (see `.do/` directory for configuration).
