@@ -9,7 +9,7 @@
   {{- if .IsPage -}}
     {{- $socialImage = .Params.poster | default "" -}}
   {{- else -}}
-    {{- $socialImage = "/exhibitions/posters/the-line.jpg" -}}
+    {{- $socialImage = "/ui/og/social-banner-exhibitions.jpg" -}}
   {{- end -}}
 {{- else if eq .Section "maquettes" -}}
   {{- if .IsPage -}}
@@ -18,11 +18,13 @@
     {{- $socialImage = "/works/spreads/2025.05_c32-6.jpg" -}}
   {{- end -}}
 {{- else if eq .RelPermalink "/works/" -}}
-  {{- $socialImage = "/works/social-banner-works.jpg" -}}
+  {{- $socialImage = "/ui/og/social-banner-works.jpg" -}}
 {{- else if eq .RelPermalink "/out-of-memory/" -}}
-  {{- $socialImage = "/works/2025.05_oom_fan.jpg" -}}
+  {{- $socialImage = "/ui/og/social-banner-oom.jpg" -}}
 {{- else if eq .RelPermalink "/about/" -}}
-  {{- $socialImage = "/about/social-banner-about.jpg" -}}
+  {{- $socialImage = "/ui/og/social-banner-about.jpg" -}}
+{{- else if eq .RelPermalink "/contact/" -}}
+  {{- $socialImage = "/ui/og/social-banner-contact.jpg" -}}
 {{- else if eq .RelPermalink "/folio-editions/" -}}
   {{- $socialImage = "/works/2025.04_liminal_studies.jpeg" -}}
 {{- else if eq .RelPermalink "/liminal-studies/" -}}
