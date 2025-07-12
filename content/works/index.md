@@ -18,15 +18,6 @@ Liminal Studies is an ongoing photographic study of deliberately ambiguous _simu
 
 ![Liminal Studies](/works/2025.04_liminal_studies.jpeg)
 
-{{< gallery sq="true" >}}
-/works/2025.04_liminal_studies-1.jpg
-/works/2025.04_liminal_studies-2.jpg
-/works/2025.04_liminal_studies-3.jpg
-/works/2025.04_liminal_studies-7.jpg
-/works/2025.04_liminal_studies-5.jpg
-/works/2025.04_liminal_studies-6.jpg
-{{< /gallery >}}
-
 ---
 
 ## Out of Memory
