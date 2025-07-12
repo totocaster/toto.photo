@@ -3,6 +3,7 @@ title: Book Maquettes
 style: show-title maquettes
 ---
 
+* [A Chair in the Sky](/maquettes/a-chair-in-the-sky/)
 * [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/)
 * [Catch-32](/maquettes/catch-32/)
 * [Synesthesia](/maquettes/synesthesia/)

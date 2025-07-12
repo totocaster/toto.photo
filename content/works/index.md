@@ -60,6 +60,7 @@ In my universe, the book remains the definitive form for completed photographic 
 /works/spreads/2025.05_tpifa-0.jpg
 {{< /gallery >}}
 
+- [A Chair in the Sky](/maquettes/a-chair-in-the-sky/) (2025)
 - [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/) (box-set, 2022)
 - [Catch-32](/maquettes/catch-32/) (2021)
 - [Synesthesia](/maquettes/synesthesia/) (2021)
