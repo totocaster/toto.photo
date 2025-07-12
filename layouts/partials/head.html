@@ -1,4 +1,5 @@
-<title>{{ .Site.Title }}</title>
+<title>{{ .Title | default .Site.Title }}</title>
+{{ partial "social-meta.html" . }}
 {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 {{ $mobileMenu := resources.Get "js/mobile-menu.js" | js.Build | minify }}

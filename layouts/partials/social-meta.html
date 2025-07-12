@@ -1,0 +1,58 @@
+{{- $socialImage := "" -}}
+{{- $socialTitle := .Title | default .Site.Title -}}
+{{- $socialDescription := .Summary | default .Site.Params.description | default (printf "%s - Photography Portfolio" .Site.Params.author) -}}
+
+{{- if .IsHome -}}
+  {{- $socialImage = "/ui/2023_social_avatar.jpeg" -}}
+  {{- $socialTitle = .Site.Title -}}
+{{- else if eq .Section "exhibitions" -}}
+  {{- if .IsPage -}}
+    {{- $socialImage = .Params.poster | default "" -}}
+  {{- else -}}
+    {{- $socialImage = "/exhibitions/posters/the-line.jpg" -}}
+  {{- end -}}
+{{- else if eq .Section "maquettes" -}}
+  {{- if .IsPage -}}
+    {{- $socialImage = .Params.featured_image | default "" -}}
+  {{- else -}}
+    {{- $socialImage = "/works/spreads/2025.05_c32-6.jpg" -}}
+  {{- end -}}
+{{- else if eq .RelPermalink "/works/" -}}
+  {{- $socialImage = "/works/social-banner-works.jpg" -}}
+{{- else if eq .RelPermalink "/out-of-memory/" -}}
+  {{- $socialImage = "/works/2025.05_oom_fan.jpg" -}}
+{{- else if eq .RelPermalink "/about/" -}}
+  {{- $socialImage = "/about/social-banner-about.jpg" -}}
+{{- else if eq .RelPermalink "/folio-editions/" -}}
+  {{- $socialImage = "/works/2025.04_liminal_studies.jpeg" -}}
+{{- else if eq .RelPermalink "/liminal-studies/" -}}
+  {{- $socialImage = "/works/2025.04_liminal_studies.jpeg" -}}
+{{- end -}}
+
+{{- if not $socialImage -}}
+  {{- $socialImage = "/ui/2023_social_avatar.jpeg" -}}
+{{- end -}}
+
+{{- $socialImageURL := printf "%s%s" (strings.TrimSuffix "/" .Site.BaseURL) $socialImage -}}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $socialTitle }}">
+<meta property="og:description" content="{{ $socialDescription }}">
+<meta property="og:image" content="{{ $socialImageURL }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta property="twitter:title" content="{{ $socialTitle }}">
+<meta property="twitter:description" content="{{ $socialDescription }}">
+<meta property="twitter:image" content="{{ $socialImageURL }}">
+{{- with .Site.Params.twitter -}}
+<meta name="twitter:site" content="{{ . }}">
+<meta name="twitter:creator" content="{{ . }}">
+{{- end -}}
+
+<!-- General Meta -->
+<meta name="description" content="{{ $socialDescription }}">
+<meta name="author" content="{{ .Site.Params.author }}">
