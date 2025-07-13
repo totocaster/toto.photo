@@ -1,4 +1,8 @@
-<title>{{ .Title | default .Site.Title }}</title>
+{{- if .IsHome -}}
+<title>{{ .Site.Title }}</title>
+{{- else -}}
+<title>{{ .Title }} · {{ .Site.Title }}</title>
+{{- end -}}
 {{ partial "social-meta.html" . }}
 {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />

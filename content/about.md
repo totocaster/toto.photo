@@ -1,5 +1,5 @@
 ---
-title: About Toto Tvalavadze
+title: About
 ---
 
 ![Selfie](/about/about_toto.jpg)
