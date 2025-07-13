@@ -3,7 +3,7 @@
 {{- $socialDescription := .Summary | default .Site.Params.description | default (printf "%s - Photography Portfolio" .Site.Params.author) -}}
 
 {{- if .IsHome -}}
-  {{- $socialImage = "/ui/2023_social_avatar.jpeg" -}}
+  {{- $socialImage = "/ui/og/social-banner-home.jpg" -}}
   {{- $socialTitle = .Site.Title -}}
 {{- else if eq .Section "exhibitions" -}}
   {{- if .IsPage -}}
