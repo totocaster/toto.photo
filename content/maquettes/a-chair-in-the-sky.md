@@ -8,6 +8,7 @@ spreads:
   - /works/spreads/2025.07_ACITS_01.jpg
   - /works/spreads/2025.07_ACITS_13.jpg
   - /works/spreads/2025.07_ACITS_02.jpg
+  - /works/spreads/2025.07_ACITS_12.jpg
   - /works/spreads/2025.07_ACITS_03.jpg
   - /works/spreads/2025.07_ACITS_04.jpg
   - /works/spreads/2025.07_ACITS_05.jpg
@@ -16,7 +17,6 @@ spreads:
   - /works/spreads/2025.07_ACITS_08.jpg
   - /works/spreads/2025.07_ACITS_09.jpg
   - /works/spreads/2025.07_ACITS_10.jpg
-  - /works/spreads/2025.07_ACITS_12.jpg
 ---
 
 
