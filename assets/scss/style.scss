@@ -416,7 +416,7 @@ article.contact {
     @include font-variation(400, 100);
   }
 
-  a.emphasized {
+  .emphasized {
     @include font-variation(500, 100);
   }
 

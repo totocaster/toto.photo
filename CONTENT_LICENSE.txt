@@ -1,0 +1,10 @@
+Copyright (c) 2025 Toto Tvalavadze
+All rights reserved.
+
+All website content in this repository, including but not limited to
+photographs, images, and written text (e.g., in `content/`, `static/`,
+and `assets/images/`), is proprietary and may not be used, copied,
+modified, or distributed without explicit permission from the copyright
+holder.
+
+Code and templates are licensed separately under the MIT License in `LICENSE`.

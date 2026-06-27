@@ -2,16 +2,6 @@
 title: Works
 ---
 
-<!-- ## Folio Editions
-
-[Folio Editions](/folio-editions/) are small, book-shaped collections, each centered on a specific theme or subject that I explore through visual language. Some editions serve as studies, while others include excerpts and experiments from larger projects. I produce Folio Editions in limited runs here in Japan.
-
-![Folio Editions](https://placehold.co/600x330)
-
-Explore [Folio Editions](/folio-editions/) in detail --- what are they, how to get one.
-
---- -->
-
 ## Liminal Studies
 
 Liminal Studies is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. 

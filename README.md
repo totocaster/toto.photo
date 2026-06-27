@@ -162,3 +162,9 @@ The site uses modern CSS and JavaScript features with fallbacks for:
 ## Last Updated
 
 January 30, 2025
+
+## License
+
+- Code (templates, scripts, styles, configuration) is MIT licensed. See `LICENSE`.
+- Content (photographs, images, and written text) is copyrighted and not
+  licensed for reuse. See `CONTENT_LICENSE.txt`.
