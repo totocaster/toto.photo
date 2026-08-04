@@ -91,7 +91,7 @@ Special gallery exploring liminal realism concepts
 ### Hugo Configuration
 - **Base URL**: https://toto.photo/
 - **Language**: en-us
-- **Custom Permalinks**: Maquettes use simplified URLs (`/maquettes/:filename/`)
+- **Custom Permalinks**: Maquettes use simplified URLs (`/maquettes/:contentbasename/`)
 
 ### Styling
 - **SCSS Variables**: Responsive design with mobile, narrow, and wide breakpoints

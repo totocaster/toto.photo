@@ -1,6 +1,7 @@
 baseURL = 'https://toto.photo/'
 languageCode = 'en-us'
 title = 'Toto Tvalavadze'
+disableKinds = ['taxonomy', 'term']
 
 [params]
   author = "Toto Tvalavadze"
@@ -9,4 +10,4 @@ title = 'Toto Tvalavadze'
   instagram = "https://instagram.com/totocaster"
 
 [permalinks]
-  maquettes = "/maquettes/:filename/"
+  maquettes = "/maquettes/:contentbasename/"
