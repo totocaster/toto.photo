@@ -40,7 +40,7 @@
     {{ end }}
   </section>
   {{ end }} {{ if .Params.acknowledgements }}
-  <h2>Shout-Outs</h2>
+  <h2>{{ .Params.acknowledgements_title | default "Shout-Outs" }}</h2>
   <p>{{ .Params.acknowledgements }}</p>
   {{ end }}
 </article>
