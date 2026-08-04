@@ -8,6 +8,3 @@ disableKinds = ['taxonomy', 'term']
   description = "Photography portfolio exploring the intersection of concrete narratives and personal interpretation through Liminal Realism."
   twitter = "@totocaster"
   instagram = "https://instagram.com/totocaster"
-
-[permalinks]
-  maquettes = "/maquettes/:contentbasename/"
