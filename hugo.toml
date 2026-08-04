@@ -7,7 +7,6 @@ title = 'Toto Tvalavadze'
   description = "Photography portfolio exploring the intersection of concrete narratives and personal interpretation through Liminal Realism."
   twitter = "@totocaster"
   instagram = "https://instagram.com/totocaster"
-  membershipURL = "https://ttvl.co/membership"
 
 [permalinks]
   maquettes = "/maquettes/:filename/"

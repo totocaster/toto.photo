@@ -2,9 +2,31 @@
 title: Works
 ---
 
+## Book Maquettes
+
+In my universe, the book remains the definitive form for completed photographic work. Below are book maquettes I've made over the years.
+
+![Catch-32 Spread](/works/spreads/2025.05_c32-6.jpg)
+
+{{< gallery >}}
+/works/spreads/2025.05_synesthesia-0.jpg
+/works/spreads/2025.05_satd-0.jpg
+/works/spreads/2025.05_tpifa-0.jpg
+{{< /gallery >}}
+
+- [A Chair in the Sky](/maquettes/a-chair-in-the-sky/) (2025)
+- [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/) (box-set, 2022)
+- [Catch-32](/maquettes/catch-32/) (2021)
+- [Synesthesia](/maquettes/synesthesia/) (2021)
+- [Someone at the Door](/maquettes/someone-at-the-door/) (2021)
+- [The Place I Felt Alone](/maquettes/the-place-i-felt-alone/) (2020)
+- [Tokyo on Wheels](/maquettes/tokyo-on-wheels/) (2019)
+
+---
+
 ## Liminal Studies
 
-Liminal Studies is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects. 
+Liminal Studies is an ongoing photographic study of deliberately ambiguous _simulacra_.  I examine how people negotiate presence and distance—how technology can isolate as readily as it connects.
 
 ![Liminal Studies](/works/2025.04_liminal_studies.jpeg)
 
@@ -26,25 +48,3 @@ Liminal Studies is an ongoing photographic study of deliberately ambiguous _simu
 {{< /gallery >}}
 
 See all [Out of Memory volumes](/out-of-memory).
-
----
-
-## Book Maquettes
-
-In my universe, the book remains the definitive form for completed photographic work. Below are book maquettes I've made over the years.
-
-![Catch-32 Spread](/works/spreads/2025.05_c32-6.jpg)
-
-{{< gallery >}}
-/works/spreads/2025.05_synesthesia-0.jpg
-/works/spreads/2025.05_satd-0.jpg
-/works/spreads/2025.05_tpifa-0.jpg
-{{< /gallery >}}
-
-- [A Chair in the Sky](/maquettes/a-chair-in-the-sky/) (2025)
-- [I Want to Do Bad Things to You](/maquettes/i-want-to-do-bad-things-to-you/) (box-set, 2022)
-- [Catch-32](/maquettes/catch-32/) (2021)
-- [Synesthesia](/maquettes/synesthesia/) (2021)
-- [Someone at the Door](/maquettes/someone-at-the-door/) (2021)
-- [The Place I Felt Alone](/maquettes/the-place-i-felt-alone/) (2020)
-- [Tokyo on Wheels](/maquettes/tokyo-on-wheels/) (2019)
