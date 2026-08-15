@@ -1,14 +1,33 @@
-name: totophoto
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+domains:
+  - domain: toto.photo
+    type: PRIMARY
+features:
+  - buildpack-stack=ubuntu-22
+ingress:
+  rules:
+    - component:
+        name: toto-photo
+      match:
+        path:
+          prefix: /
+name: toto-photo
+region: fra
 static_sites:
-  - build_command: rm -r ./public; hugo --destination ./public
+  - build_command: hugo -d public
     environment_slug: hugo
+    envs:
+      - key: HUGO_VERSION
+        scope: BUILD_TIME
+        value: '0.164.0'
+      - key: HUGO_EXTENDED
+        scope: BUILD_TIME
+        value: '1'
     github:
       branch: main
       deploy_on_push: true
       repo: totocaster/toto.photo
-    name: totophoto
-    env:
-      - key: HUGO_VERSION
-        value: '0.139.0'
-      - key: HUGO_EXTENDED
-        value: '1'
+    name: toto-photo
+    source_dir: /

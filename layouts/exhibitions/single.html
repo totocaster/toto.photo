@@ -33,23 +33,18 @@
   {{ end }} {{ if .Params.show_gallery }}
   <h2>Show Gallery</h2>
   <section class="show-gallery">
-    {{ range .Params.show_gallery }}
+    {{ range $index, $image := .Params.show_gallery }}
     <div class="gallery-item">
-      <img src="{{ . }}" alt="Gallery image" class="gallery-image" onclick="openLightbox(this.src)" />
+      <img src="{{ $image }}" alt="{{ $.Title }} exhibition view {{ add $index 1 }}" class="gallery-image" loading="lazy" onclick="openLightbox(this.src)" />
     </div>
     {{ end }}
   </section>
+  {{ with .Params.gallery_credit }}
+  <p class="gallery-credit">{{ . }}</p>
+  {{ end }}
   {{ end }} {{ if .Params.acknowledgements }}
   <h2>{{ .Params.acknowledgements_title | default "Shout-Outs" }}</h2>
   <p>{{ .Params.acknowledgements }}</p>
   {{ end }}
 </article>
-
-<!-- Lightbox -->
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img" src="" alt="Lightbox image" onclick="event.stopPropagation()" />
-</div>
-
-{{ $lightbox := resources.Get "js/lightbox.js" }} {{ $lightbox = $lightbox | js.Build }}
-<script src="{{ $lightbox.RelPermalink }}"></script>
 {{ end }}

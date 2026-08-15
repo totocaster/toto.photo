@@ -6,7 +6,7 @@ A professional photography portfolio website built with [Hugo](https://gohugo.io
 
 **URL**: https://toto.photo/  
 **Author**: Toto Tvalavadze  
-**Technology**: Hugo Static Site Generator (Extended Version 0.139.0)  
+**Technology**: Hugo Static Site Generator (Extended Version 0.164.0)
 **Deployment**: DigitalOcean App Platform  
 
 ## Project Structure

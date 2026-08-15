@@ -3,6 +3,7 @@ title: 'Contact'
 style: 'contact'
 ---
 
+{{< rawhtml >}}
 <h2>Artist & Studios</h2>
 <section class="grouped-info">
   <p><a href="mailto:studio@ttvl.co" class="emphasized">studio@ttvl.co</a></p>
@@ -36,3 +37,4 @@ style: 'contact'
 
 <h2>Elsewhere</h2>
 <p><a href="//ttvl.co">ttvl.co</a> is my alter ego.</p>
+{{< /rawhtml >}}

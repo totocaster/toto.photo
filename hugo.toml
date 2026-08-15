@@ -1,5 +1,5 @@
 baseURL = 'https://toto.photo/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Toto Tvalavadze'
 disableKinds = ['taxonomy', 'term']
 

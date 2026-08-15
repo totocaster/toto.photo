@@ -1,8 +1,7 @@
-<!-- Lightbox Partial -->
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" onclick="closeLightbox()">
   <img id="lightbox-img" src="" alt="Lightbox image" onclick="event.stopPropagation()" />
 </div>
 
 {{ $lightbox := resources.Get "js/lightbox.js" }}
 {{ $lightbox = $lightbox | js.Build }}
-<script src="{{ $lightbox.RelPermalink }}"></script> 
+<script src="{{ $lightbox.RelPermalink }}"></script>
