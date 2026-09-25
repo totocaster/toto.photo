@@ -40,7 +40,7 @@
     {{ end }}
   </section>
   {{ with .Params.gallery_credit }}
-  <p class="gallery-credit">{{ . }}</p>
+  <p class="gallery-credit">{{ . | markdownify }}</p>
   {{ end }}
   {{ end }} {{ if .Params.acknowledgements }}
   <h2>{{ .Params.acknowledgements_title | default "Shout-Outs" }}</h2>
