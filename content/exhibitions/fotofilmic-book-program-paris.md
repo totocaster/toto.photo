@@ -13,6 +13,8 @@ address_url: https://www.google.com/maps/search/?api=1&query=17+Rue+Notre+Dame+d
 
 gallery_url: https://fotofilmic.com/fbp-exhibition-2025-26/
 
+poster: /exhibitions/posters/fotofilmic-book-program-paris.jpg
+
 acknowledgements_title: Acknowledgments
 acknowledgements: With gratitude to Greg Girard for his guidance and mentorship, to Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, and Naoko Ohta, and to Bastien Desfriches Doria and Virginie Lamarche at FotoFilmic.
 ---
@@ -27,7 +29,7 @@ The year-long program was directed by photographer Greg Girard, with publishing 
 
 Presented alongside the AFMP III remount, the exhibition overlaps with Paris Photo 2026.
 
-The opening reception takes place on Tuesday, November 10, from 6–8pm.
+The [joint opening reception for AFMP III and FBP](https://www.instagram.com/p/DecHXjLB-Y3/) takes place on Tuesday, November 10, from 6–8pm in the Marais quarter.
 
 [See the exhibition’s first presentation on Bowen Island.](/exhibitions/fotofilmic-book-program-bowen-island/)
 
