@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    {{- /* One book on its own, full window: unlisted, kept out of search and the sitemap. */}}
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
+    <title>{{ .Title }} · {{ site.Params.author }}</title>
+    <meta name="description" content="{{ .Params.hint }}" />
+    {{- $b := index hugo.Data.books .Params.book }}
+    {{- $base := .Params.media }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Params.hint }}" />
+    <meta property="og:type" content="book" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ print $base $b.cover.small.src }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://ttvl-websites.fra1.cdn.digitaloceanspaces.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=EB+Garamond:ital,wght@0,400;1,400&family=Instrument+Sans:wght@400;500;600&display=swap" />
+    {{- $css := resources.Get "css/book-viewer.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+    {{- $pages := slice }}
+    {{- range $b.pages }}
+      {{- $pages = $pages | append (dict "src" (print $base .large.src) "thumb" (print $base .thumb.src) "alt" .alt "blank" .blank) }}
+    {{- end }}
+    {{- $insert := dict "src" (print $base $b.cover.large.src) "thumb" (print $base $b.cover.thumb.src) "alt" $b.cover.alt "width" $b.cover.large.width "height" $b.cover.large.height "widthRatio" $b.cover.insertWidthRatio }}
+    {{- $data := dict "title" .Title "byline" .Params.byline "hint" .Params.hint "pairing" $b.pairing "trimMm" .Params.trim "depth" .Params.depth "spineSub" (upper site.Params.author) "insert" $insert "pages" $pages }}
+    <script type="application/json" id="book-data">{{ $data | jsonify | safeJS }}</script>
+    <script src="/js/vendor/three-r158.min.js" defer></script>
+    {{- $js := resources.Get "js/book-viewer.js" | js.Build (dict "target" "es2020") | minify | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="viewer" class="vw" tabindex="0" aria-label="{{ .Title }}. Use the left and right arrow keys to turn the pages.">
+        <header class="v-head">
+          <div class="v-id">
+            <h1 class="v-title">{{ .Title }}</h1>
+            <span class="v-by">{{ .Params.byline }}</span>
+          </div>
+          <div class="v-side">
+            <a class="v-nav" href="#about">About the book</a>
+            <span class="v-clock">With this book <span class="fd" role="timer"></span></span>
+          </div>
+        </header>
+
+        <div class="v-stage">
+          <canvas aria-hidden="true"></canvas>
+          <div class="v-flat" hidden></div>
+          <button type="button" class="v-arrow prev" aria-label="Previous pages" title="Previous pages (←)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 10H4M9 5l-5 5 5 5"></path></svg></button>
+          <button type="button" class="v-arrow next" aria-label="Next pages" title="Next pages (→)"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"></path></svg></button>
+        </div>
+
+        <div class="v-cap">
+          <span class="v-hint" aria-live="polite">{{ .Params.hint }}</span>
+          <button type="button" class="v-open"><span class="v-u">Open the book</span><svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"></path></svg></button>
+        </div>
+
+        <footer class="v-foot">
+          <div class="v-tools">
+            <button type="button" class="v-tool" data-tool="pages" aria-haspopup="dialog" aria-label="Pages" title="Every opening"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="5" height="5"></rect><rect x="12" y="3" width="5" height="5"></rect><rect x="3" y="12" width="5" height="5"></rect><rect x="12" y="12" width="5" height="5"></rect></svg><span>Pages</span></button>
+            <button type="button" class="v-tool" data-tool="closer" aria-pressed="false" aria-label="Closer" title="Look closer"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4M8.5 6v5M6 8.5h5"></path></svg><span>Closer</span></button>
+            <button type="button" class="v-tool" data-tool="spine" aria-pressed="false" aria-label="View spine" title="The spine"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="6" y="2" width="8" height="16" rx="1"></rect><path d="M9 5v4m0 4v2"></path></svg><span>Spine</span></button>
+          </div>
+          <output class="v-label" aria-live="polite">Cover</output>
+          <div class="v-end">
+            <div class="v-pos">
+              <label for="v-range" class="sr">Go to a page</label>
+              <input id="v-range" class="v-range" type="range" min="0" max="1" step="1" value="0">
+              <div class="v-map" aria-hidden="true"></div>
+            </div>
+            <button type="button" class="v-full" aria-label="Enter full screen" title="Full screen (F)"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4"></path></svg></button>
+          </div>
+        </footer>
+
+        <section class="v-veil" role="dialog" aria-modal="true" aria-label="Every opening" hidden>
+          <div class="v-panel-top">
+            <div><span class="v-eyebrow">The sequence</span><h2 class="v-h2">Take your time.</h2></div>
+            <button type="button" class="v-x" aria-label="Close pages"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"></path></svg></button>
+          </div>
+          <div class="cs"></div>
+        </section>
+      </div>
+
+      <section class="about" id="about" aria-labelledby="about-h">
+        <div class="rail"><span class="lab">About the book</span></div>
+        <div class="main">
+          <h2 id="about-h">{{ .Title }}</h2>
+          <p class="lede">{{ .Params.lede }}</p>
+          <div class="statement">{{ .Content }}</div>
+          <dl class="facts">
+            {{- range .Params.details }}
+            <dt>{{ .term }}</dt>
+            <dd>{{ .text }}</dd>
+            {{- end }}
+          </dl>
+          <p class="note">{{ .Params.viewing }}</p>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <span>{{ .Title }} · {{ site.Params.author }}</span>
+      <span>© {{ now.Year }} {{ site.Params.author }}</span>
+    </footer>
+  </body>
+</html>

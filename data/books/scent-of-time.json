@@ -1,0 +1,2321 @@
+{
+ "slug": "scent-of-time",
+ "title": "Scent of Time",
+ "layout": "book",
+ "source": "Scent of Time (Rev D, sRGB).pdf",
+ "sourceBytes": 1266776598,
+ "sourceSha256": "41d8b01101db1d4125b32013b301f5cf0a340469038036e2e5336255cea29a7e",
+ "pdfPages": 80,
+ "trimPt": [
+  595.276,
+  841.89
+ ],
+ "pageRatio": 0.7070709950231028,
+ "pairing": "first-alone",
+ "cover": {
+  "role": "cover",
+  "label": "Cover",
+  "cloth": "egg white",
+  "alt": "Egg-white cloth cover with an inset photograph of a fruit tree beneath protective netting. The gold-foiled spine reads SCENT OF TIME at the top and TOTO TVALAVADZE in smaller lettering at the bottom.",
+  "source": "Cover Insert (Rev B).psd",
+  "sourceSha256": "de9227665e38d0358ea48e184d90a718ee5a5c69be6d6b2bd97a39e6f3384b23",
+  "insertWidthMm": 75.01,
+  "insertHeightMm": 109.56,
+  "insertWidthRatio": 0.3572124527110113,
+  "blank": false,
+  "small": {
+   "src": "books/scent-of-time/cover-small.c2a008a602.webp",
+   "width": 822,
+   "height": 1200,
+   "bytes": 200160,
+   "sha256": "c2a008a602d84b4fdd60fbe7d0765835dcaeb5c31ee016d10ac82f27e857e836"
+  },
+  "large": {
+   "src": "books/scent-of-time/cover-large.33fd5d1a94.webp",
+   "width": 886,
+   "height": 1294,
+   "bytes": 281902,
+   "sha256": "33fd5d1a942fa75d11feb7251eb9db2feccb12bd050f3a5961eddfb85baa33ba"
+  },
+  "thumb": {
+   "src": "books/scent-of-time/cover-thumb.97a845f3ca.webp",
+   "width": 164,
+   "height": 240,
+   "bytes": 7624,
+   "sha256": "97a845f3ca26cda52514e188fdb77a7176746b574ff557b46e297a4961a023ac"
+  }
+ },
+ "back": {
+  "role": "back",
+  "label": "Back cover",
+  "cloth": "egg white",
+  "alt": "Plain egg-white cloth back cover, digitally represented."
+ },
+ "pages": [
+  {
+   "pdfPage": 1,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p001-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p001-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p001-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 1,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 2,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p002-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p002-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p002-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 2,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 3,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p003-small.13f5ffc4dc.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 192378,
+    "sha256": "13f5ffc4dc6836a47fdc0eaa84701005b9a25da37582399edcf9e1813305dc1d"
+   },
+   "large": {
+    "src": "books/scent-of-time/p003-large.52f231c6f9.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 599438,
+    "sha256": "52f231c6f9b9a90e03be2ad93418fb0de57847522b5753e395132495bb94f960"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p003-thumb.2e4aa139d4.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 9056,
+    "sha256": "2e4aa139d4437d246ff46c00fa1b225e6ae548f40ace785374e3e58aea328885"
+   },
+   "number": 3,
+   "alt": "Cherry blossoms above a green river and a small weir."
+  },
+  {
+   "pdfPage": 4,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p004-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p004-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p004-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 4,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 5,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p005-small.3174989a8d.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 6692,
+    "sha256": "3174989a8de70f525b341f9c0752792d7412ebcef8a0202ac16aa4686ff19419"
+   },
+   "large": {
+    "src": "books/scent-of-time/p005-large.ec5ac97a60.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 14122,
+    "sha256": "ec5ac97a604c7c89bd9cbf85b215ae98f1b79456b2601ab14e11ff5ead5ade50"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p005-thumb.1263398e15.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 690,
+    "sha256": "1263398e15a309da7ef5f681a7f96e0ae3676ec66059d3f6b4b72f39731fca29"
+   },
+   "number": 5,
+   "alt": "Title page: Scent of Time, Toto Tvalavadze. Tokyo, 2026.",
+   "proofMarks": [
+    {
+     "digit": 1,
+     "x": 291.5,
+     "y": 729.8
+    },
+    {
+     "digit": 4,
+     "x": 309.4,
+     "y": 730.1
+    }
+   ]
+  },
+  {
+   "pdfPage": 6,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p006-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p006-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p006-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 6,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 7,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p007-small.128a7cb149.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 128796,
+    "sha256": "128a7cb149344e8fc065ede31283d012bc279e674ea540ffdc1b3b7598e30594"
+   },
+   "large": {
+    "src": "books/scent-of-time/p007-large.406d50bf9f.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 399598,
+    "sha256": "406d50bf9f249fc25bad213744a35ef2cf13a64c71dedb9ff65276c784525768"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p007-thumb.5b81e5175e.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 7232,
+    "sha256": "5b81e5175ed7b46c3d25be23b63931aeca6dd06caaa1ac05e149cb10a96092bb"
+   },
+   "number": 7,
+   "alt": "A person sitting on a rock beside rushing blue water."
+  },
+  {
+   "pdfPage": 8,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p008-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p008-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p008-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 8,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 9,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p009-small.daea7b78e0.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 235934,
+    "sha256": "daea7b78e030496c5539381ad163c0ff14ebad4a76aec33aee5f2a2bdc51dbb7"
+   },
+   "large": {
+    "src": "books/scent-of-time/p009-large.d99b0c8be0.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 811956,
+    "sha256": "d99b0c8be0440d109d748b9ebc35bd99a546112f7b0310fbc01d71387dc0c9d4"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p009-thumb.eba72bfe8f.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6980,
+    "sha256": "eba72bfe8f5cf9bee006402259758ace5121294fc35f8a6c6a0d4f77679d2572"
+   },
+   "number": 9,
+   "alt": "Water falling over dark rock."
+  },
+  {
+   "pdfPage": 10,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p010-small.290814addc.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 114180,
+    "sha256": "290814addc5d266d30caaae40bc90407a1705c0e088bcd55b29b7be162155077"
+   },
+   "large": {
+    "src": "books/scent-of-time/p010-large.4b82538c2f.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 403276,
+    "sha256": "4b82538c2f1d1e2a0bd8604d7a42791ef51d13120e8c18c89816cafca692d06c"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p010-thumb.0bdf4cff94.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 7264,
+    "sha256": "0bdf4cff9442245f238de50802554301078b72b7efee9a7c3cfd0148aef2e7e8"
+   },
+   "number": 10,
+   "alt": "An unmade bed beneath a sunlit window."
+  },
+  {
+   "pdfPage": 11,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p011-small.3115b828e7.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 98158,
+    "sha256": "3115b828e795f1ede471ff6130c4b89134c9f60b008cb129c9c74519ab014402"
+   },
+   "large": {
+    "src": "books/scent-of-time/p011-large.ef0104c1ce.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 405130,
+    "sha256": "ef0104c1cebf9f891b6a77e0fe2347179629fa869c1634b93e046e7d6349f0bb"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p011-thumb.f72c5f3a7a.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3008,
+    "sha256": "f72c5f3a7a527df86ddc27986891e1a56914accb62d2704b88a572deb85dd34e"
+   },
+   "number": 11,
+   "alt": "A small box against a tall concrete wall."
+  },
+  {
+   "pdfPage": 12,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p012-small.a91369396d.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 193014,
+    "sha256": "a91369396dc45b73b67a44b33e1c3553460fd09d604065c499b6b68e6ff77245"
+   },
+   "large": {
+    "src": "books/scent-of-time/p012-large.59ca4097f9.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 665622,
+    "sha256": "59ca4097f9ec43711ce9f73fa153b36759c57b4740be80a722c49aa2b9f2ff12"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p012-thumb.f2e0dc28bf.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6298,
+    "sha256": "f2e0dc28bff0ded2bfa8496c6919153e31524bfa21cda92b166f03ea70706220"
+   },
+   "number": 12,
+   "alt": "A wave breaking on a rocky shore."
+  },
+  {
+   "pdfPage": 13,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p013-small.ce3f4b848a.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 77758,
+    "sha256": "ce3f4b848af5af2b1dce648b6c44b4a58e9fe22135538536c16d007fc43b12e3"
+   },
+   "large": {
+    "src": "books/scent-of-time/p013-large.65f7142b74.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 300250,
+    "sha256": "65f7142b7496509555855fd42347f4ca79f973771f84cc28d1c1eb3ee8486506"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p013-thumb.9a9ddfc9f6.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 5854,
+    "sha256": "9a9ddfc9f68cf11c3784e03895f11e151227e0e5261815ca6a7bad3edd37e3b9"
+   },
+   "number": 13,
+   "alt": "A bicycle partly hidden beneath a white cover."
+  },
+  {
+   "pdfPage": 14,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p014-small.e45fbcdeaa.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 240666,
+    "sha256": "e45fbcdeaab2e7b75da76c35afc61019bd210e2d9c6919ad68e6befdba0791ec"
+   },
+   "large": {
+    "src": "books/scent-of-time/p014-large.d898807fc6.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 992906,
+    "sha256": "d898807fc6df3efdc8c66c6b5a51a10dfee7ed7958fab7774e720341f59a20b4"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p014-thumb.767003ad97.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1378,
+    "sha256": "767003ad9715468501f43d0536a7e883c953638efd401780ae56030b4d600209"
+   },
+   "number": 14,
+   "alt": "Sunlight and shadows on an interior wall; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 15,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p015-small.c1b949d912.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 200708,
+    "sha256": "c1b949d912219fbb91ee73fe34ab0c12b66d76588e68f492a592930d7ad4fd68"
+   },
+   "large": {
+    "src": "books/scent-of-time/p015-large.d39adc3805.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 874276,
+    "sha256": "d39adc38058b31639556b72bb017f71e190e9e1acd2c5aae15d7264dee65250a"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p015-thumb.38d7a80cb2.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1576,
+    "sha256": "38d7a80cb2118a61d8ed58f797b004f6490e22301ab13b64ab5a12eaf3fcb765"
+   },
+   "number": 15,
+   "alt": "Sunlight and shadows on an interior wall; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 16,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p016-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p016-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p016-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 16,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 17,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p017-small.5bc8623fa6.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 42614,
+    "sha256": "5bc8623fa6c0f49130e3a8cc9639347a182eafb0b22237864ddc16942913ae38"
+   },
+   "large": {
+    "src": "books/scent-of-time/p017-large.7927ce76b4.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 160142,
+    "sha256": "7927ce76b49735842e50db3226db6be40bf9b4f171430b3b78fb0c485df286a7"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p017-thumb.ea2947c4a6.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 2304,
+    "sha256": "ea2947c4a69bf37de25941739e30526cb766fc4110a69a580d5bb626e49ca7e2"
+   },
+   "number": 17,
+   "alt": "Light through a window in a dark room."
+  },
+  {
+   "pdfPage": 18,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p018-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p018-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p018-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 18,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 19,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p019-small.ee829fa0c4.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 259048,
+    "sha256": "ee829fa0c4cc2327f4a49b3d1bedf5004cb7d0631bee15af3e461426e8fb6056"
+   },
+   "large": {
+    "src": "books/scent-of-time/p019-large.526c8f4dc5.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 800936,
+    "sha256": "526c8f4dc509b32dc28cf304bb432a4c77cd87cc2245152070cab20f63e971d3"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p019-thumb.63039fda64.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 8058,
+    "sha256": "63039fda64a31d0a5e7841a17d7236acce3c63a7959692dd57d1a5d3f72c08f6"
+   },
+   "number": 19,
+   "alt": "Steps cut into a pale rocky slope."
+  },
+  {
+   "pdfPage": 20,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p020-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p020-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p020-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 20,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 21,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p021-small.59310ab73b.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 172608,
+    "sha256": "59310ab73ba37703e37569fb45c931a963c57b9b957ee4ca4f3a3b2fffb30738"
+   },
+   "large": {
+    "src": "books/scent-of-time/p021-large.c2fd069a3d.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 675838,
+    "sha256": "c2fd069a3db5dfabf4338322367bd3847ce31f8374b36dfe6844ae858b3da697"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p021-thumb.c2e39fd7ef.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 7762,
+    "sha256": "c2e39fd7ef5675acd1eed4db131a00e447e5d59c04cbac3764af7c5c68dc9855"
+   },
+   "number": 21,
+   "alt": "A small greenhouse in a garden."
+  },
+  {
+   "pdfPage": 22,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p022-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p022-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p022-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 22,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 23,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p023-small.593896ad4a.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 213586,
+    "sha256": "593896ad4a8ecb44cdc2dcfd13d6729064971aab5cfbd756d2edefd9a055bc20"
+   },
+   "large": {
+    "src": "books/scent-of-time/p023-large.2f1e00a534.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 805150,
+    "sha256": "2f1e00a534133964d826c72e8e4482717bad5e67740fdce9c7bf212590ccdc1c"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p023-thumb.f003800604.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 5854,
+    "sha256": "f0038006044a3495547abb839c0b7233bfbc1d829ad7935e218e2657f02d74ea"
+   },
+   "number": 23,
+   "alt": "A lone tree beside an open field."
+  },
+  {
+   "pdfPage": 24,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p024-small.88e694191d.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 234786,
+    "sha256": "88e694191d53dc4667c612375020fe06a23a1b54503fffd65d23c356892534af"
+   },
+   "large": {
+    "src": "books/scent-of-time/p024-large.0233438b7d.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 699074,
+    "sha256": "0233438b7df172b73e4ec01bdaf3b65c036f201f142140ef7057b8c04dfc7fc3"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p024-thumb.1e5f6678f1.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 7634,
+    "sha256": "1e5f6678f1fc17be80a9aee4cc85752800e3436b695a4419860cd45bb501f7da"
+   },
+   "number": 24,
+   "alt": "Dry vines hanging over a building."
+  },
+  {
+   "pdfPage": 25,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p025-small.3677c32328.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 66786,
+    "sha256": "3677c32328ad5a6e8ae094942e01e42da35caa6fcf42078994bc3d1b0893106d"
+   },
+   "large": {
+    "src": "books/scent-of-time/p025-large.966ec3f6a7.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 243054,
+    "sha256": "966ec3f6a76225f74f6364c9ed37ace78de8f9fdb4e6d3b999b19735a3ba722c"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p025-thumb.6c3952ee18.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3286,
+    "sha256": "6c3952ee18ebcad775bbcc5b0bc0804bfe81b55437a36c1f9ab6412941baf505"
+   },
+   "number": 25,
+   "alt": "Sunlight falling on an outdoor table and steps."
+  },
+  {
+   "pdfPage": 26,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p026-small.3de8c751e1.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 197530,
+    "sha256": "3de8c751e11d0e2a61c38e6a558d2ae35a53e1a0ed1ca937b4e9f30f90162448"
+   },
+   "large": {
+    "src": "books/scent-of-time/p026-large.36fe9b1fa1.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 648916,
+    "sha256": "36fe9b1fa11cf5e60e00c0dd4d457911b3ff302b081786701a1a608713f8448e"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p026-thumb.59639ed648.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 9852,
+    "sha256": "59639ed648e4a7e3b5a998dcc38a980fc797a101486811611969fceba623f941"
+   },
+   "number": 26,
+   "alt": "A person standing among tall trees."
+  },
+  {
+   "pdfPage": 27,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p027-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p027-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p027-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 27,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 28,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p028-small.9180dcbcff.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 71798,
+    "sha256": "9180dcbcffbf339a4345e1d7e9a18d5c31d6bcbc7274335a8a4ec40007ec879c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p028-large.60eb0f895f.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 296160,
+    "sha256": "60eb0f895f2a7f3899d6c89dd4e4f7b56cf39e22ff0fa7809c1fcb9136b577b7"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p028-thumb.e7b37dde43.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3626,
+    "sha256": "e7b37dde43dc50bf8247f53b5024be1f5495b374b2cc89d0dbfda029e152a96f"
+   },
+   "number": 28,
+   "alt": "People in a field beneath a blue sky; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 29,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p029-small.5ddb0b7328.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 74910,
+    "sha256": "5ddb0b7328e0d309d6f3c7f57712e310cc8440721a2ff7ca501280b1e12d0a99"
+   },
+   "large": {
+    "src": "books/scent-of-time/p029-large.5747e82897.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 302602,
+    "sha256": "5747e82897dcafe27dbfef41faf9c4fd869bd131d45dae136efe87db16010394"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p029-thumb.aab25739df.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3958,
+    "sha256": "aab25739df605810e0bcd2a9c732311202d0259e88d78463ced7802415c2f09b"
+   },
+   "number": 29,
+   "alt": "People in a field beneath a blue sky; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 30,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p030-small.b0885ba8de.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 17426,
+    "sha256": "b0885ba8de917c8a193922e0aee19608c4d82fadd72795152f7ca000290ef346"
+   },
+   "large": {
+    "src": "books/scent-of-time/p030-large.7b2578395a.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 86128,
+    "sha256": "7b2578395a6be289b1ffecfbf9ed6bffc7cf710e264e8cb8703350a7a207e5cd"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p030-thumb.6e36d19513.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 950,
+    "sha256": "6e36d19513d39abcdfbb21fe37196debd7c797985079d169881bec9db60e88cc"
+   },
+   "number": 30,
+   "alt": "A pale, hazy landscape; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 31,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p031-small.8735426fac.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 13098,
+    "sha256": "8735426fac99985c2dfe6a9c9e33d4a083c91ea777b295d6bf4bb1a824232053"
+   },
+   "large": {
+    "src": "books/scent-of-time/p031-large.b26122e352.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 67050,
+    "sha256": "b26122e35257a16ee44892d66408cb3dc14720cffedef29c1d4e4702b1b7812b"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p031-thumb.a2ed5e8abc.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 702,
+    "sha256": "a2ed5e8abcf480fa0aeb26f7ed04f1b4f1f1469c3b072b6e64e94f78becbade2"
+   },
+   "number": 31,
+   "alt": "A pale, hazy landscape; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 32,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p032-small.865bffe61f.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 99238,
+    "sha256": "865bffe61fcdca919719751364655616bd10dbf44205c5d7356ff20ea3219f19"
+   },
+   "large": {
+    "src": "books/scent-of-time/p032-large.ee4e3d1c92.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 523334,
+    "sha256": "ee4e3d1c92e07a311c78f6184fbd7acc181564debbedf5286301ece3dcc84923"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p032-thumb.e9897063e8.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6770,
+    "sha256": "e9897063e8f3e76d282615b7323c05e42e8f53d88c286ae1e15e2eee7a138d14"
+   },
+   "number": 32,
+   "alt": "Warm light on rumpled bed linen."
+  },
+  {
+   "pdfPage": 33,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p033-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p033-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p033-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 33,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 34,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p034-small.b59f2d84fe.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 32582,
+    "sha256": "b59f2d84fe318e35d0368094f0d4dbba6282e9fd08745d8eaa5cd4f2774fd41b"
+   },
+   "large": {
+    "src": "books/scent-of-time/p034-large.de979ee525.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 279204,
+    "sha256": "de979ee525baab30497cd52d6d395a9a055881b6b9bf82ac6aaca9b14cd740d2"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p034-thumb.87f15223ff.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1480,
+    "sha256": "87f15223ffd9cbfce321508294096a9f3935cda66e18e52aa57fa1af32f2a86e"
+   },
+   "number": 34,
+   "alt": "A curtain and a city in golden haze; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 35,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p035-small.d0bec55b16.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 38462,
+    "sha256": "d0bec55b1656ce104d967968e607677651185fbfbe73f446c99c83893c4f62a6"
+   },
+   "large": {
+    "src": "books/scent-of-time/p035-large.2905501e32.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 346740,
+    "sha256": "2905501e32a4617c8f04c716ca301a090554b982da68b8b51582e2f5b36aa7f7"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p035-thumb.01390a3de5.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1272,
+    "sha256": "01390a3de5d649e6420f2ffd7289acb6496845d64dc2b093b0a02c2047abd3ec"
+   },
+   "number": 35,
+   "alt": "A curtain and a city in golden haze; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 36,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p036-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p036-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p036-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 36,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 37,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p037-small.681b105198.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 127908,
+    "sha256": "681b10519885aaa4d7fc704be15475d9b6b53c15928ce51ae569946f571f6b34"
+   },
+   "large": {
+    "src": "books/scent-of-time/p037-large.d0bff684cd.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 512916,
+    "sha256": "d0bff684cd1af923865bfbbdb0521179fa6e35da05614c61fe75cfbf226d2ef1"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p037-thumb.304638db17.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3892,
+    "sha256": "304638db1707d66f9f881e8513c2e34da57ba2b139eec14a66917e4d45cdf2cc"
+   },
+   "number": 37,
+   "alt": "Clouds drifting over a mountain valley."
+  },
+  {
+   "pdfPage": 38,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p038-small.6c37d1daed.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 98734,
+    "sha256": "6c37d1daedfd4ec4323e4a976d06f6d752da0bdccaa53d2cfeaf78b20e3a0fca"
+   },
+   "large": {
+    "src": "books/scent-of-time/p038-large.10ae594872.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 260088,
+    "sha256": "10ae5948721c45e7dd81cd0c1cdc0d216f77bc2d07c7a0c42d8eaefbec8d330b"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p038-thumb.689cae72b3.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 4100,
+    "sha256": "689cae72b3a7220ed4359f4048827b046e8a4ebc2d59b23cba2729135a664d45"
+   },
+   "number": 38,
+   "alt": "Bare branches in a quiet field."
+  },
+  {
+   "pdfPage": 39,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p039-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p039-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p039-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 39,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 40,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p040-small.15e57e79be.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 140056,
+    "sha256": "15e57e79beeb3e6b7d3aa7978a22e69e1efbb1d5d64efd52b77f118de7b5b623"
+   },
+   "large": {
+    "src": "books/scent-of-time/p040-large.fdf36acdbf.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 472440,
+    "sha256": "fdf36acdbfc0ae8320ea30b7e13e2b726190b97320bdc0e58e0afe8d015aeb55"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p040-thumb.11be54642b.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6540,
+    "sha256": "11be54642b32faebc76fc2f814efd5c7e83ba2f9934822d457f39e197681cbfc"
+   },
+   "number": 40,
+   "alt": "A figure behind a wire fence."
+  },
+  {
+   "pdfPage": 41,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p041-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p041-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p041-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 41,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 42,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p042-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p042-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p042-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 42,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 43,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p043-small.0fabb4b744.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 31458,
+    "sha256": "0fabb4b744682f11217542aa679bfc1e5c74019f2cdaa7478e305205a60583c8"
+   },
+   "large": {
+    "src": "books/scent-of-time/p043-large.30c5a8d05e.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 324082,
+    "sha256": "30c5a8d05ef8e4c907d954edc0fc0e8f3d23e527b8bb8a177f0f099b33bb7092"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p043-thumb.6b88df5861.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1000,
+    "sha256": "6b88df58616f53ff9df090355c2f721d54e8c759e80c4aabd73828cc207beca0"
+   },
+   "number": 43,
+   "alt": "A viewing telescope in fog."
+  },
+  {
+   "pdfPage": 44,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p044-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p044-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p044-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 44,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 45,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p045-small.2b20f667a1.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 89878,
+    "sha256": "2b20f667a182d7f7ddb030e6cc92986ac0292b459b3489511087344c9ea39516"
+   },
+   "large": {
+    "src": "books/scent-of-time/p045-large.059fe67048.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 330916,
+    "sha256": "059fe67048b2b4e6f27a4bd67cb926f1468dff62501605d62fca87c22dd9d618"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p045-thumb.e03c5d1ff9.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 4184,
+    "sha256": "e03c5d1ff900d6a7d737992912c46948792021afcf6c04735be33159524f4b20"
+   },
+   "number": 45,
+   "alt": "Cables disappearing into a misty green hillside."
+  },
+  {
+   "pdfPage": 46,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p046-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p046-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p046-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 46,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 47,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p047-small.7bab735c3b.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 16612,
+    "sha256": "7bab735c3b1f2c6ee704a34799aebfafbbae61dfdd96661c86efe7f381d7c0c3"
+   },
+   "large": {
+    "src": "books/scent-of-time/p047-large.3ee6d78fab.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 88706,
+    "sha256": "3ee6d78fab6635298379dedffbaea44615896c0b333817005ec334eac41e678e"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p047-thumb.e20c3111b2.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1922,
+    "sha256": "e20c3111b252eff6ac2e80a797242f814c929e7c76d139aebe0e76b1909bb80f"
+   },
+   "number": 47,
+   "alt": "A flock of birds against a pale sky."
+  },
+  {
+   "pdfPage": 48,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p048-small.bf7efa1f5c.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 87944,
+    "sha256": "bf7efa1f5ce61558e563ab8c7f59958735f3d38588da8e2c8f7979ec82cfc151"
+   },
+   "large": {
+    "src": "books/scent-of-time/p048-large.c3070c158c.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 368818,
+    "sha256": "c3070c158cf815da66bee674517043f9c1f98d7fd77f4a6a674a624ca5d4bff8"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p048-thumb.a9949e49f4.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 2758,
+    "sha256": "a9949e49f401a9d5d3d22162a94ff37fafdf093d1f0670bdc6ed71c8fdaf9e93"
+   },
+   "number": 48,
+   "alt": "A structure over shallow water; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 49,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p049-small.4119fc6d5d.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 110748,
+    "sha256": "4119fc6d5d638ec54e7ad52337f04e0d4d934617cb8f8e803a11aaff8c5977cc"
+   },
+   "large": {
+    "src": "books/scent-of-time/p049-large.d3556b7b2f.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 436124,
+    "sha256": "d3556b7b2fe1e3b5e7880070fcae46563ed661963e5f7254c87ccda1944a9c8c"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p049-thumb.bc78807c96.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3632,
+    "sha256": "bc78807c9605c8ac2b1f4759d6dc1d73f521366af6a5d2d80d51eee95e78ceae"
+   },
+   "number": 49,
+   "alt": "A structure over shallow water; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 50,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p050-small.36c48767a9.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 63466,
+    "sha256": "36c48767a95931cca23c96ee6cc02075b2f49b3ad4f67ada05fa61e5bd24ffba"
+   },
+   "large": {
+    "src": "books/scent-of-time/p050-large.a777c493f3.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 376496,
+    "sha256": "a777c493f3ac003bb3c3dcf8f1331e5d04b168a593a0e2847a742da26b374560"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p050-thumb.504a50b858.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1934,
+    "sha256": "504a50b858497456e9e105c4bf33eec9cece35d4ed3231ee8c62d3d00ad31d8e"
+   },
+   "number": 50,
+   "alt": "A jetty beneath a dark sky; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 51,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p051-small.e301c769b3.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 43802,
+    "sha256": "e301c769b3626201e6a2f3ecd8e6967ee8fe0ae693c14b50d29b4f1e2e34b906"
+   },
+   "large": {
+    "src": "books/scent-of-time/p051-large.278c082076.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 321658,
+    "sha256": "278c0820769435ca77cd76711afbce3f1df3cc2e78d1050da1d10219c91441b8"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p051-thumb.d19e69dbad.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1162,
+    "sha256": "d19e69dbad82f1740626109b8f00b4480830bb6b1abb6ccf74053e9a11ae5da4"
+   },
+   "number": 51,
+   "alt": "A jetty beneath a dark sky; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 52,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p052-small.851641708f.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 40872,
+    "sha256": "851641708f997940d35bb3e07d1d21d8bafe45a26caf89492790286a809baf63"
+   },
+   "large": {
+    "src": "books/scent-of-time/p052-large.e9c73198d8.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 239756,
+    "sha256": "e9c73198d8c4542ae16edfa0bd4ae44ed6063cfbc177427a6cd2479581f42a2e"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p052-thumb.ee7d84bcb6.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1540,
+    "sha256": "ee7d84bcb6a669dae1a29138a8c7109b9e14c603b635f7834636e132f3de2a90"
+   },
+   "number": 52,
+   "alt": "A doorway opening onto a blue sea."
+  },
+  {
+   "pdfPage": 53,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p053-small.5e9503a337.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 42620,
+    "sha256": "5e9503a3377806a15ece621ff4543e8d31aa76c5900fbe27a832e7a122b22615"
+   },
+   "large": {
+    "src": "books/scent-of-time/p053-large.04b57a5190.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 317062,
+    "sha256": "04b57a5190c5d0380e8cdda264ba1b5b14ba8bb7f99602acc843bdd1b502dee2"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p053-thumb.28a867469b.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1652,
+    "sha256": "28a867469bf0e63046daf0ddfc188116a148c5961f5f82d38fd87d42bf0847ac"
+   },
+   "number": 53,
+   "alt": "Clear turquoise water above a pale seabed."
+  },
+  {
+   "pdfPage": 54,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p054-small.05b8d27d45.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 6152,
+    "sha256": "05b8d27d453fec88846bcd3ead657eed8c0c54c6eb365f34c1c85afb63741266"
+   },
+   "large": {
+    "src": "books/scent-of-time/p054-large.f85de744d1.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 33738,
+    "sha256": "f85de744d1602ec404f0f9921bf7f2c8dd05a65a8f112fab2c7a52595a155db4"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p054-thumb.19c385665c.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 574,
+    "sha256": "19c385665c6617938313bf8e18dfeb23053a7db4a8b8d1e23f46c1cda04d1de7"
+   },
+   "number": 54,
+   "alt": "A fish suspended in dark water."
+  },
+  {
+   "pdfPage": 55,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p055-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p055-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p055-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 55,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 56,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p056-small.a7762632ed.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 160732,
+    "sha256": "a7762632edc503dde5cd1705c6089ffe4a5ab78b4a3d32e587481ed0e8072184"
+   },
+   "large": {
+    "src": "books/scent-of-time/p056-large.56e31da05d.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 507644,
+    "sha256": "56e31da05d56a75818d42a14ab8c40b170aa40c1033517b4923f0121efa309ac"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p056-thumb.10345ef14c.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 5292,
+    "sha256": "10345ef14cd71f46099d75ffb9127d9f48e41e67657d3b9587092a3c78ec589a"
+   },
+   "number": 56,
+   "alt": "Water moving through submerged plants."
+  },
+  {
+   "pdfPage": 57,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p057-small.07cebca4b1.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 30780,
+    "sha256": "07cebca4b14c55c4ad5ce615520336f2f31b61ba7f42598806d26a006c5dc3db"
+   },
+   "large": {
+    "src": "books/scent-of-time/p057-large.9b02778764.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 221660,
+    "sha256": "9b02778764a602f610116a40d0c2c8f9c8f4c19cb242457222341a7689bf6945"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p057-thumb.f971b821b0.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1826,
+    "sha256": "f971b821b009c4a2a106e61a0cc5c3982f2d09484597fa161a5f599bc0f9803c"
+   },
+   "number": 57,
+   "alt": "Tall buildings in muted light."
+  },
+  {
+   "pdfPage": 58,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p058-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p058-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p058-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 58,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 59,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p059-small.6cf0c20185.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 88538,
+    "sha256": "6cf0c201851436513203dcf89cba401acc00d29e59200c3ec41642cb2b621fb8"
+   },
+   "large": {
+    "src": "books/scent-of-time/p059-large.92f0a7fca9.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 267610,
+    "sha256": "92f0a7fca9a9b02587f7f3060f03afd4c2c1479a233d12f39aa92b9aa5e59fca"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p059-thumb.f30ac1343f.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6456,
+    "sha256": "f30ac1343f88ff6c8e4aee8a9b92b4c03e9aa8e7d4d1772d43933728eb05fbeb"
+   },
+   "number": 59,
+   "alt": "An outstretched hand beneath a shrine rope and paper ornament."
+  },
+  {
+   "pdfPage": 60,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p060-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p060-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p060-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 60,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 61,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p061-small.8ad7ff5ae8.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 65908,
+    "sha256": "8ad7ff5ae8e161db5fbf54ef88798053c4211401ea7fe49444243ddd88638040"
+   },
+   "large": {
+    "src": "books/scent-of-time/p061-large.c3eb631157.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 345218,
+    "sha256": "c3eb63115777bc8eb2d17ec9ac97fa1cfc1b9f570c5e085a23fe3030f8a4c110"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p061-thumb.43b7416e6f.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3302,
+    "sha256": "43b7416e6f8a92fd83e253b90f4ea2d2a5c6cf5ffb297bb2a8ad9593acdc0589"
+   },
+   "number": 61,
+   "alt": "A hammock hanging in a shaded room."
+  },
+  {
+   "pdfPage": 62,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p062-small.73dc3de17e.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 204580,
+    "sha256": "73dc3de17e99402a76de4a7a9fb7f7afbdf49fcfddc9d73c6e86426c22bb317c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p062-large.6d06603bed.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 727562,
+    "sha256": "6d06603bede8ff5289551df9b770e75c58b00b3fb1d85ccba6347cc378713354"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p062-thumb.da8f029000.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6030,
+    "sha256": "da8f0290009fb6d0e954a021eed1f1cc484d2f8c93e7232dfe989fc1f5acde59"
+   },
+   "number": 62,
+   "alt": "An overgrown building below a mountain; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 63,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p063-small.fc5dce6f9d.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 248564,
+    "sha256": "fc5dce6f9d833b10e86228ccd04c63dddf86abe2c431d121e9810afb380463c1"
+   },
+   "large": {
+    "src": "books/scent-of-time/p063-large.8648aa6e45.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 795406,
+    "sha256": "8648aa6e45616572ffdf6042006cec692d2d05a546752072e729c6e9fbce956e"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p063-thumb.6d8d37ba9e.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 7582,
+    "sha256": "6d8d37ba9e16d74102fdd6451d36775158675f59aaefeed1dfee249dfc1ed9d0"
+   },
+   "number": 63,
+   "alt": "An overgrown building below a mountain; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 64,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p064-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p064-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p064-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 64,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 65,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p065-small.3f603c837c.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 180484,
+    "sha256": "3f603c837cce4c9580f5159ff011d43b28a0d2fa6abe79f7f20c89c3ed595610"
+   },
+   "large": {
+    "src": "books/scent-of-time/p065-large.7962602e09.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 530658,
+    "sha256": "7962602e095497069ae9c8281f51e9a0c74fda3c7abce085013e284e2d29169b"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p065-thumb.b11c1160c8.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 9108,
+    "sha256": "b11c1160c82ea544423fcd6e8fbac93b7d1729bedbd469615fb30f1772c9de46"
+   },
+   "number": 65,
+   "alt": "A stone path through a garden."
+  },
+  {
+   "pdfPage": 66,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p066-small.19f6372088.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 114976,
+    "sha256": "19f63720883c1213d359d394661fc6477dd921b54c791e0d1005ca828b8371d9"
+   },
+   "large": {
+    "src": "books/scent-of-time/p066-large.44396d84d9.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 552722,
+    "sha256": "44396d84d9654c3e1a5d06748c6befc9fdb937ccbec1b3259a24bb7da2a830eb"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p066-thumb.838d120f9b.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 5958,
+    "sha256": "838d120f9b42c067c82f78150828b9327dc7cb1767b18900d176d40a9e832729"
+   },
+   "number": 66,
+   "alt": "Sunflowers against a pale blue sky; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 67,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p067-small.e3140a7913.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 104610,
+    "sha256": "e3140a791358a4d14a8ce2809602620e17fb87aa6a63589e598cf9bbe87c116b"
+   },
+   "large": {
+    "src": "books/scent-of-time/p067-large.8de3818a0b.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 500634,
+    "sha256": "8de3818a0b269fe2e51e4074b5ff47048cf822ffab2917dd30c2fbe985c19800"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p067-thumb.a1f7abda16.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6026,
+    "sha256": "a1f7abda1646118215871d109128ce2a81cf0b480d63217b763465bbe40977f3"
+   },
+   "number": 67,
+   "alt": "Sunflowers against a pale blue sky; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 68,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p068-small.1b63d4e6c5.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 72686,
+    "sha256": "1b63d4e6c5762ba3c59e19b52872016eea3b355ffaab1ccc305a431f5baf329e"
+   },
+   "large": {
+    "src": "books/scent-of-time/p068-large.7ab3455331.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 300928,
+    "sha256": "7ab34553318bc138d3baedd70638d921d64959817beaa23b6eb7d222c7dd8b65"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p068-thumb.1953a5b51f.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3860,
+    "sha256": "1953a5b51f49f8ad5fb3b881580cab29f11c2c09380c64ec197ae81839e19f1d"
+   },
+   "number": 68,
+   "alt": "A person looking through a ferry window; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 69,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p069-small.6df36851fe.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 79014,
+    "sha256": "6df36851feb7d59d1ee5ce00f756eccee3ce478a618446e5f24eda57c70e40ff"
+   },
+   "large": {
+    "src": "books/scent-of-time/p069-large.b663ea2452.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 361534,
+    "sha256": "b663ea24520dffa53cbcee48b7509f3e7e51adb4d92f261190ace187e876c9cb"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p069-thumb.e53ec8a47b.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 3284,
+    "sha256": "e53ec8a47bab2504e0f91d4a2e5934144147ecdfc820240df292137bcd917e1f"
+   },
+   "number": 69,
+   "alt": "A person looking through a ferry window; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 70,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p070-small.de02d9e289.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 191908,
+    "sha256": "de02d9e289ce7d2f6606ff40ae10192afa0411bd36815a3cd7bc196d77d66c37"
+   },
+   "large": {
+    "src": "books/scent-of-time/p070-large.eefa671067.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 650544,
+    "sha256": "eefa6710674de5cc94a0ff1d39574f891cd5d0a56f34df1472e09867ae65fd5d"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p070-thumb.0820b7e24c.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 6758,
+    "sha256": "0820b7e24c4172bd9743b6d2db01f5e5930d842b830153065cde1266f9ed8aad"
+   },
+   "number": 70,
+   "alt": "A painted wall in dappled light; left half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 71,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p071-small.7aaa072041.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 264350,
+    "sha256": "7aaa072041830f4a605c2ae339618a2d8fe797c478bba08399855a2781999343"
+   },
+   "large": {
+    "src": "books/scent-of-time/p071-large.5664476b0c.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 810418,
+    "sha256": "5664476b0cb36c28af0baf0327bbfe856e1749348fcca8fb2a32a8221a0f0df9"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p071-thumb.a4c2059d20.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 10154,
+    "sha256": "a4c2059d2044b74c166b8df50562b88387e1f751a793ae76e00498d2640c48ca"
+   },
+   "number": 71,
+   "alt": "A painted wall in dappled light; right half of a photograph spanning the spread."
+  },
+  {
+   "pdfPage": 72,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p072-small.febe021476.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 151724,
+    "sha256": "febe0214760c11e5ec3c50c7a02e00eb8ec12b5ba08972f25048088d6d3c4f92"
+   },
+   "large": {
+    "src": "books/scent-of-time/p072-large.be25cb26de.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 525084,
+    "sha256": "be25cb26ded62a92c12ddcd5cdb55ecb722427a5f680d146cf067166cb9ac7ca"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p072-thumb.92c5db76f9.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 11352,
+    "sha256": "92c5db76f97a28c41daa2ee14088cfde1e51d6c36bd305b7ee2d33a0f5a251ef"
+   },
+   "number": 72,
+   "alt": "Red flowers reaching into a bright sky."
+  },
+  {
+   "pdfPage": 73,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p073-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p073-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p073-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 73,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 74,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p074-small.8018a99a19.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 246372,
+    "sha256": "8018a99a19b48192f17b0af232c4761bb7d588c005af78ea4ffbbfe4620d11e6"
+   },
+   "large": {
+    "src": "books/scent-of-time/p074-large.815dd4d7b8.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 678392,
+    "sha256": "815dd4d7b81c9ec579e2ed43b3035a9a3dd7ff84091323e2a4538340ba9fd325"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p074-thumb.e9449020c8.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 11988,
+    "sha256": "e9449020c86a70ac7c3a939714e0d23a3278d2d9bdd6845962230c760d0036c8"
+   },
+   "number": 74,
+   "alt": "A round mirror surrounded by pink flowers."
+  },
+  {
+   "pdfPage": 75,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p075-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p075-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p075-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 75,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 76,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p076-small.9eab11ab41.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 211900,
+    "sha256": "9eab11ab41504a4e78e93cf1ae6962f7ba6a8a8c6433caf5c783433bb7caa16f"
+   },
+   "large": {
+    "src": "books/scent-of-time/p076-large.7a788419d5.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 709718,
+    "sha256": "7a788419d5ff7490fc316624717ec30922d902258a6e5cdafae96c64deeb579f"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p076-thumb.081fd7cf78.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 9832,
+    "sha256": "081fd7cf783d04148ef6fd73bb5df94d2b0babbd258e29ebbcc4fb05464bb8af"
+   },
+   "number": 76,
+   "alt": "The moon among dark branches."
+  },
+  {
+   "pdfPage": 77,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p077-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p077-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p077-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 77,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 78,
+   "role": "interior",
+   "blank": false,
+   "small": {
+    "src": "books/scent-of-time/p078-small.41245c3274.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 42260,
+    "sha256": "41245c327458565865194ac4a17a75ad94a7cb81100d16e063ff42cfb7009648"
+   },
+   "large": {
+    "src": "books/scent-of-time/p078-large.ed1c49ed7f.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 92096,
+    "sha256": "ed1c49ed7f9e8743651da0248a85f8bffa00ab7439c1eacb31fe6366fae673fe"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p078-thumb.fca45a6822.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 1890,
+    "sha256": "fca45a6822687309363930bf755fe1dda30936c7649e12762501264428350814"
+   },
+   "number": 78,
+   "alt": "Colophon: Copyright 2026 Toto Tvalavadze. Handbound in Tokyo at Marumizu-Gumi Bookbinding Studio by Toto Tvalavadze under the instruction of Nao Inoue. Set in Alegreya. Printed on Takeo VENT NOUVEAU white, Kiku 135.5 kg paper. Book maquette, second revision, July 2026. Title and motif borrowed from Byung-Chul Han’s The Scent of Time: A Philosophical Essay on the Art of Lingering. Developed within the FotoFilmic Book Program 2025–26. With gratitude to Greg Girard, Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, Naoko Ohta, Bastien Desfriches Doria, Virginie Lamarche, Ludovica, Toshi, and Sophie.",
+   "proofMarks": [
+    {
+     "digit": 1,
+     "x": 88.5,
+     "y": 465.7
+    },
+    {
+     "digit": 4,
+     "x": 107.5,
+     "y": 465.9
+    }
+   ]
+  },
+  {
+   "pdfPage": 79,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p079-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p079-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p079-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 79,
+   "alt": "Blank page."
+  },
+  {
+   "pdfPage": 80,
+   "role": "interior",
+   "blank": true,
+   "small": {
+    "src": "books/scent-of-time/p080-small.69445a5d46.webp",
+    "width": 849,
+    "height": 1200,
+    "bytes": 1906,
+    "sha256": "69445a5d46524d2df02b57c3f085713b980157016aa9ebdd16ee9c39848baf3c"
+   },
+   "large": {
+    "src": "books/scent-of-time/p080-large.e256adfe58.webp",
+    "width": 1415,
+    "height": 2000,
+    "bytes": 5126,
+    "sha256": "e256adfe58da343a2b77c2913269be62a6532ef96bb772044a09b9f5cea93733"
+   },
+   "thumb": {
+    "src": "books/scent-of-time/p080-thumb.4224e45bde.webp",
+    "width": 170,
+    "height": 240,
+    "bytes": 136,
+    "sha256": "4224e45bdeaf3cbe078baa3da794d259b0ff4d477209b089c040a2eb92d5a276"
+   },
+   "number": 80,
+   "alt": "Blank page."
+  }
+ ],
+ "webBytes": 31378408
+}
