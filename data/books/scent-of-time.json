@@ -169,28 +169,28 @@
    "role": "interior",
    "blank": false,
    "small": {
-    "src": "books/scent-of-time/p005-small.3174989a8d.webp",
+    "src": "books/scent-of-time/p005-small.1b356ad8ae.webp",
     "width": 849,
     "height": 1200,
-    "bytes": 6692,
-    "sha256": "3174989a8de70f525b341f9c0752792d7412ebcef8a0202ac16aa4686ff19419"
+    "bytes": 6846,
+    "sha256": "1b356ad8aeab21c899618e0444b439642da1e3f986bf5f091d4eca20cfa22546"
    },
    "large": {
-    "src": "books/scent-of-time/p005-large.ec5ac97a60.webp",
+    "src": "books/scent-of-time/p005-large.231909a8f6.webp",
     "width": 1415,
     "height": 2000,
-    "bytes": 14122,
-    "sha256": "ec5ac97a604c7c89bd9cbf85b215ae98f1b79456b2601ab14e11ff5ead5ade50"
+    "bytes": 14476,
+    "sha256": "231909a8f6bdb9b62c448a83ad90116750bd4e577c53ccb5e0e5184025067643"
    },
    "thumb": {
-    "src": "books/scent-of-time/p005-thumb.1263398e15.webp",
+    "src": "books/scent-of-time/p005-thumb.e58331bc56.webp",
     "width": 170,
     "height": 240,
-    "bytes": 690,
-    "sha256": "1263398e15a309da7ef5f681a7f96e0ae3676ec66059d3f6b4b72f39731fca29"
+    "bytes": 692,
+    "sha256": "e58331bc56d2dd99495ec1b88ccc9f3d95654fbd7876e30b58a980dfab1a18f2"
    },
    "number": 5,
-   "alt": "Title page: Scent of Time, Toto Tvalavadze. Tokyo, 2026.",
+   "alt": "Title page: Scent of Time, Toto Tvalavadze. Artist’s proof 1 of 4, numbered in pencil. Tokyo, 2026.",
    "proofMarks": [
     {
      "digit": 1,
@@ -2225,28 +2225,28 @@
    "role": "interior",
    "blank": false,
    "small": {
-    "src": "books/scent-of-time/p078-small.41245c3274.webp",
+    "src": "books/scent-of-time/p078-small.9b8e3f9ded.webp",
     "width": 849,
     "height": 1200,
-    "bytes": 42260,
-    "sha256": "41245c327458565865194ac4a17a75ad94a7cb81100d16e063ff42cfb7009648"
+    "bytes": 42424,
+    "sha256": "9b8e3f9ded000edbd75b8257270fec0bc46b4d8b2c8b892e241246f3584a429d"
    },
    "large": {
-    "src": "books/scent-of-time/p078-large.ed1c49ed7f.webp",
+    "src": "books/scent-of-time/p078-large.2cb53ad7d0.webp",
     "width": 1415,
     "height": 2000,
-    "bytes": 92096,
-    "sha256": "ed1c49ed7f9e8743651da0248a85f8bffa00ab7439c1eacb31fe6366fae673fe"
+    "bytes": 92466,
+    "sha256": "2cb53ad7d06939e3be72c381e502034080fad6cf28f73d39c5b8b3fdd811f53d"
    },
    "thumb": {
-    "src": "books/scent-of-time/p078-thumb.fca45a6822.webp",
+    "src": "books/scent-of-time/p078-thumb.6f3ba50f91.webp",
     "width": 170,
     "height": 240,
-    "bytes": 1890,
-    "sha256": "fca45a6822687309363930bf755fe1dda30936c7649e12762501264428350814"
+    "bytes": 1894,
+    "sha256": "6f3ba50f912b8c2c67eb514a6421139070d717bfa1ed56ab0183791a04007d82"
    },
    "number": 78,
-   "alt": "Colophon: Copyright 2026 Toto Tvalavadze. Handbound in Tokyo at Marumizu-Gumi Bookbinding Studio by Toto Tvalavadze under the instruction of Nao Inoue. Set in Alegreya. Printed on Takeo VENT NOUVEAU white, Kiku 135.5 kg paper. Book maquette, second revision, July 2026. Title and motif borrowed from Byung-Chul Han’s The Scent of Time: A Philosophical Essay on the Art of Lingering. Developed within the FotoFilmic Book Program 2025–26. With gratitude to Greg Girard, Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, Naoko Ohta, Bastien Desfriches Doria, Virginie Lamarche, Ludovica, Toshi, and Sophie.",
+   "alt": "Colophon: Copyright 2026 Toto Tvalavadze. Handbound in Tokyo at Marumizu-Gumi Bookbinding Studio by Toto Tvalavadze under the instruction of Nao Inoue. Set in Alegreya. Printed on Takeo VENT NOUVEAU white, Kiku 135.5 kg paper. Book maquette, second revision, artist’s proof 1 of 4, numbered in pencil. July 2026. Title and motif borrowed from Byung-Chul Han’s The Scent of Time: A Philosophical Essay on the Art of Lingering. Developed within the FotoFilmic Book Program 2025–26. With gratitude to Greg Girard, Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, Naoko Ohta, Bastien Desfriches Doria, Virginie Lamarche, Ludovica, Toshi, and Sophie.",
    "proofMarks": [
     {
      "digit": 1,
