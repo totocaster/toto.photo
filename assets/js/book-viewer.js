@@ -68,14 +68,13 @@
       this.state = { book: 0 };
       this.view = 0;
       this.spine = false;
-      this.closer = false;
       this.born = Date.now();
       this.entered = Date.now();
       this.ms = new Array(N + 2).fill(0);
       this.el = {
         stage: $('.v-stage', root), hint: $('.v-hint', root), open: $('.v-open', root), openText: $('.v-open .v-u', root),
         label: $('.v-label', root), range: $('.v-range', root), map: $('.v-map', root), prev: $('.v-arrow.prev', root), next: $('.v-arrow.next', root),
-        pages: $('[data-tool="pages"]', root), closerBtn: $('[data-tool="closer"]', root), spineBtn: $('[data-tool="spine"]', root), full: $('.v-full', root),
+        pages: $('[data-tool="pages"]', root), spineBtn: $('[data-tool="spine"]', root), full: $('.v-full', root),
         veil: $('.v-veil', root), sheet: $('.cs', root), flat: $('.v-flat', root)
       };
       this.tick = fadeClock($('.v-clock .fd', root));
@@ -115,7 +114,6 @@
       this.el.range.value = String(v);
       this.el.range.setAttribute('aria-valuetext', ariaOf(v));
       this.el.hint.textContent = atCover ? data.hint : atBack ? 'Thank you for spending time here.'
-        : this.closer ? (touch.matches ? 'Drag across the page to look closer.' : 'Move across the page to look closer.')
         : touch.matches ? 'Tap either page, or swipe.' : 'Click either page, or use the arrow keys.';
       this.el.open.hidden = !(atCover || atBack);
       this.el.openText.textContent = atBack ? 'Return to the beginning' : 'Open the book';
@@ -123,7 +121,6 @@
       this.el.next.setAttribute('aria-disabled', String(atBack));
       this.el.spineBtn.setAttribute('aria-pressed', String(this.spine && atCover));
       this.el.spineBtn.setAttribute('aria-label', this.spine && atCover ? 'View front cover' : 'View spine');
-      this.el.closerBtn.setAttribute('aria-pressed', String(this.closer));
       this.root.setAttribute('aria-label', data.title + ', ' + ariaOf(v) + '. Use the left and right arrow keys to turn the pages.');
       this.boxes();
       [...this.el.sheet.children].forEach((b, i) => { b.setAttribute('aria-current', String(i === v)); b.classList.toggle('here', i === v); });
@@ -141,7 +138,6 @@
 
     step(d) { if (this.g) this.g.step(d); else this.flatGo(this.view + d); }
     jump(v) { if (this.g) this.g.jump(v); else this.flatGo(v); }
-    toggleCloser() { this.closer = !this.closer; if (this.g) this.g.setCloser(this.closer); this.paint(); }
     toggleSpine() { this.spine = !this.spine; if (this.g) this.g.setSpine(this.spine); this.paint(); }
     openPages(on) {
       this.el.veil.hidden = !on;
@@ -163,12 +159,13 @@
         this.el.sheet.appendChild(b);
       };
       const ratio = data.trimMm[0] / data.trimMm[1];
-      add(0, '<span class="cs-sp cs-cloth" style="width:' + Math.round(120 * ratio) + 'px"><img src="' + data.insert.thumb + '" alt="" loading="lazy" style="width:' + (data.insert.widthRatio * 100).toFixed(2) + '%"></span>');
+      // Each thumbnail keeps the book's proportions (--ar); the stylesheet sizes it to fit its column.
+      add(0, '<span class="cs-sp cs-cloth" style="--ar:' + ratio.toFixed(4) + '"><img src="' + data.insert.thumb + '" alt="" loading="lazy" style="width:' + (data.insert.widthRatio * 100).toFixed(2) + '%"></span>');
       openings.forEach(([l, r], i) => {
         const half = (n) => (n ? '<img src="' + thumb(n) + '" alt="" loading="lazy">' : '<span class="cs-blank"></span>');
-        add(i + 1, '<span class="cs-sp cs-two" style="width:' + Math.round(240 * ratio) + 'px">' + half(l) + half(r) + '<span class="cs-gut"></span></span>');
+        add(i + 1, '<span class="cs-sp cs-two" style="--ar:' + (2 * ratio).toFixed(4) + '">' + half(l) + half(r) + '<span class="cs-gut"></span></span>');
       });
-      add(N + 1, '<span class="cs-sp cs-cloth" style="width:' + Math.round(120 * ratio) + 'px"></span>');
+      add(N + 1, '<span class="cs-sp cs-cloth" style="--ar:' + ratio.toFixed(4) + '"></span>');
     }
 
     // Without WebGL: the same viewer, the pages flat.
@@ -176,7 +173,7 @@
       this.flat = true;
       this.cv.hidden = true;
       this.el.flat.hidden = false;
-      this.el.closerBtn.hidden = true; this.el.spineBtn.hidden = true;
+      this.el.spineBtn.hidden = true;
       this.el.flat.addEventListener('click', (e) => { const r = this.el.flat.getBoundingClientRect(); this.flatGo(this.view + (this.view === 0 || e.clientX > r.left + r.width / 2 ? 1 : -1)); });
     }
     flatGo(v) { v = Math.max(0, Math.min(N + 1, v)); if (v !== this.view) this.report(v); }
@@ -197,7 +194,6 @@
       e.range.addEventListener('input', () => this.jump(Number(e.range.value)));
       e.pages.addEventListener('click', () => this.openPages(true));
       $('.v-x', r).addEventListener('click', () => this.openPages(false));
-      e.closerBtn.addEventListener('click', () => this.toggleCloser());
       e.spineBtn.addEventListener('click', () => this.toggleSpine());
       e.full.addEventListener('click', () => this.fullscreen());
       r.addEventListener('focus', () => { if (this.g) this.g.hover = true; });
@@ -216,19 +212,17 @@
         else if (k === 'End') { ev.preventDefault(); this.jump(N + 1); }
         else if (k === 'f' || k === 'F') { ev.preventDefault(); this.fullscreen(); }
         else if (k === 'Escape') {
-          if (this.closer) this.toggleCloser();
-          else if (this.spine) this.toggleSpine();
+          if (this.spine) this.toggleSpine();
         }
       });
       // Pointer on the book: a corner grab turns the page under the finger; otherwise point to settle,
-      // click a page to turn, swipe to turn, and with Closer the pointer leads across the paper.
+      // click a page to turn, swipe to turn.
       cv.addEventListener('pointermove', (ev) => {
         const g = this.g; if (!g) return;
         if (g.grabbing) { g.grabMove(ev); return; }
         if (g.grabHover) g.grabHover(ev);
         const p = g.pick(ev);
         g.hover = true; g.ptr = { x: p.x, y: p.y };
-        if (g.closer) { g.closerFollow = true; g.fit(); g.closerFollow = false; }
       });
       cv.addEventListener('pointerleave', () => { const g = this.g; if (g) g.ptr = { x: 0, y: 0 }; });
       cv.addEventListener('pointerdown', (ev) => {
@@ -243,8 +237,8 @@
         if (!g.down) return;
         const dx = ev.clientX - g.down.x, dy = ev.clientY - g.down.y;
         g.down = null;
-        if (Math.abs(dx) > 40 && !g.closer) { g.step(dx < 0 ? 1 : -1); return; }
-        if (Math.abs(dx) < 6 && Math.abs(dy) < 6 && !g.closer) { const p = g.pick(ev); g.step(g.view === 0 ? 1 : (p.right ? 1 : -1)); }
+        if (Math.abs(dx) > 40) { g.step(dx < 0 ? 1 : -1); return; }
+        if (Math.abs(dx) < 6 && Math.abs(dy) < 6) { const p = g.pick(ev); g.step(g.view === 0 ? 1 : (p.right ? 1 : -1)); }
       });
       touch.addEventListener?.('change', () => this.paint());
       document.addEventListener('fullscreenchange', () => e.full.setAttribute('aria-label', document.fullscreenElement ? 'Leave full screen' : 'Enter full screen'));

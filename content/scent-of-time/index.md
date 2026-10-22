@@ -9,7 +9,7 @@ byline: Toto Tvalavadze · Tokyo, 2026
 hint: A book about the art of lingering.
 trim: [210, 297]
 depth: 0.085  # the hard-bound maquette is thicker than its 80 pages alone
-lede: A quiet, meditative drift through time—images that let time breathe without naming it.
+lede: We have learned to spend time, and forgotten how to live in it.
 details:
   - term: Edition
     text: Book maquette · Second revision
@@ -32,6 +32,6 @@ sitemap:
   disable: true
 ---
 
-These color photographs are concerned less with place than with the sensory experience of lingering without purpose. The sequence favors ambiguity and visual rest, subtle rhymes of shape and tone over narrative progression.
+Somewhere along the way, we began to treat time as a means to an end: hours to fill, minutes to save, the distance between one goal and the next. Counted this way, life happens only at its milestones, and everything in between is a grind to get through. Time falls apart into separate moments that pass before we have lived them. Yet to experience time is to experience life itself. This book argues that when we learn to observe, to linger, and to feel time pass rather than collect its moments, time regains its scent, and life its fullness.
 
 The title and motif are borrowed from Byung-Chul Han’s *The Scent of Time: A Philosophical Essay on the Art of Lingering*. The book offers an invitation to stay with an image, and to experience time as something felt.
