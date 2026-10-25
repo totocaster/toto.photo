@@ -13,7 +13,7 @@ address_url: https://www.google.com/maps/search/?api=1&query=17+Rue+Notre+Dame+d
 
 gallery_url: https://fotofilmic.com/fbp-exhibition-2025-26/
 
-poster: /exhibitions/posters/fotofilmic-book-program-paris.jpg
+poster: /exhibitions/posters/fotofilmic-book-program-paris.jpg?v=20261025
 
 acknowledgements_title: Acknowledgments
 acknowledgements: With gratitude to Greg Girard for his guidance and mentorship, to Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, and Naoko Ohta, and to Bastien Desfriches Doria and Virginie Lamarche at FotoFilmic.
