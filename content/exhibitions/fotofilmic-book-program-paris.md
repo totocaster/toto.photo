@@ -15,6 +15,15 @@ gallery_url: https://fotofilmic.com/fbp-exhibition-2025-26/
 
 poster: /exhibitions/posters/fotofilmic-book-program-paris.jpg?v=20261025
 
+show_gallery:
+  - /exhibitions/galleries/fotofilmic-paris-2026-01.jpg
+  - /exhibitions/galleries/fotofilmic-paris-2026-02.jpg
+  - /exhibitions/galleries/fotofilmic-paris-2026-03.jpg
+  - /exhibitions/galleries/fotofilmic-paris-2026-04.jpg
+  - /exhibitions/galleries/fotofilmic-paris-2026-05.jpg
+  - /exhibitions/galleries/fotofilmic-paris-2026-06.jpg
+gallery_credit: Exhibition photographs by Trey McNair.
+
 acknowledgements_title: Acknowledgments
 acknowledgements: With gratitude to Greg Girard for his guidance and mentorship, to Michael Kominek, Gonzalo Sanchez, Takayuki Kobayashi, Titus Spree, Naoko Uchima, and Naoko Ohta, and to Bastien Desfriches Doria and Virginie Lamarche at FotoFilmic.
 ---
