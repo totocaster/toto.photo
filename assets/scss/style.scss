@@ -340,6 +340,19 @@ article {
       grid-template-columns: 1fr !important;
     }
 
+    &.gallery-row {
+      display: flex !important;
+
+      .gallery-item {
+        flex-basis: 0;
+        min-width: 0;
+      }
+
+      @include mobile {
+        gap: 0.5rem !important;
+      }
+    }
+
     .gallery-item {
       img {
         width: 100%;

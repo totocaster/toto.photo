@@ -30,16 +30,24 @@
   {{ if .Params.artwork }}
   <h2>Artwork</h2>
   <p><img src="{{ .Params.artwork }}" alt="{{ .Title }}" /></p>
-  {{ end }} {{ if .Params.show_gallery }}
+  {{ end }} {{ with .Params.show_gallery }}
   <h2>Show Gallery</h2>
-  <section class="show-gallery">
-    {{ range $index, $image := .Params.show_gallery }}
-    <div class="gallery-item">
-      <img src="{{ $image }}" alt="{{ $.Title }} exhibition view {{ add $index 1 }}" class="gallery-image" loading="lazy" onclick="openLightbox(this.src)" />
+  {{/* A flat list uses the responsive grid. Nested lists each form one justified row. */}}
+  {{ $grouped := reflect.IsSlice (index . 0) }}
+  {{ $rows := slice . }}
+  {{ if $grouped }}{{ $rows = . }}{{ end }}
+  {{ $view := 0 }}
+  {{ range $rows }}
+  <section class="show-gallery{{ if $grouped }} gallery-row{{ end }}">
+    {{ range $image := . }}
+    {{ $view = add $view 1 }}
+    <div class="gallery-item"{{ if $grouped }}{{ $size := images.Config (path.Join "static" $image) }} style="flex-grow: {{ div (float $size.Width) $size.Height }}"{{ end }}>
+      <img src="{{ $image }}" alt="{{ $.Title }} exhibition view {{ $view }}" class="gallery-image" loading="lazy" onclick="openLightbox(this.src)" />
     </div>
     {{ end }}
   </section>
-  {{ with .Params.gallery_credit }}
+  {{ end }}
+  {{ with $.Params.gallery_credit }}
   <p class="gallery-credit">{{ . | markdownify }}</p>
   {{ end }}
   {{ end }} {{ if .Params.acknowledgements }}
