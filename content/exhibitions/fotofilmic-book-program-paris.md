@@ -32,13 +32,13 @@ acknowledgements: With gratitude to Greg Girard for his guidance and mentorship,
 
 *Scent of Time* is a quiet, meditative drift through time—color photographs concerned less with place than with the sensory experience of lingering without purpose.
 
-The Paris presentation will feature the completed second version of *Scent of Time*: an A4, 80-page, hand-bound maquette incorporating the feedback gathered throughout the program. The exhibition presents eight final photobook maquettes by Clara Fung, Leon Gallo, Victor Hoshiko, Paulo Lopez, Kyle Lui, Trey McNair, Diego Saldiva, and Toto Tvalavadze.
+The Paris presentation featured the completed second version of *Scent of Time*: an A4, 80-page, hand-bound maquette incorporating the feedback gathered throughout the program. The exhibition presented eight final photobook maquettes by Clara Fung, Leon Gallo, Victor Hoshiko, Paulo Lopez, Kyle Lui, Trey McNair, Diego Saldiva, and Toto Tvalavadze.
 
 The year-long program was directed by photographer Greg Girard, with publishing collaborators Michael Kominek and Gonzalo Sanchez in supporting roles.
 
-Presented alongside the AFMP III remount, the exhibition overlaps with Paris Photo 2026.
+Presented alongside the AFMP III remount, the exhibition overlapped with Paris Photo 2026.
 
-The [joint opening reception for AFMP III and FBP](https://www.instagram.com/p/DecHXjLB-Y3/) takes place on Tuesday, November 10, from 6–8pm in the Marais quarter.
+The [joint opening reception for AFMP III and FBP](https://www.instagram.com/p/DecHXjLB-Y3/) took place on Tuesday, November 10, from 6–8pm in the Marais quarter.
 
 [See the exhibition’s first presentation on Bowen Island.](/exhibitions/fotofilmic-book-program-bowen-island/)
 
